@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.0, 774.0, 170.0, 47.0 ],
+					"patching_rect" : [ 266.0, 763.0, 170.0, 47.0 ],
 					"text" : "© 2024 CNMAT\nAuthored by Jeremy Wagner\njeremy.wagner@berkeley.edu "
 				}
 
@@ -843,7 +843,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
