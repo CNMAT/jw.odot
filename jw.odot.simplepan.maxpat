@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 712.0, 391.0, 150.0, 20.0 ],
+					"text" : "UNFINISHED (Obviously)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "newobj",
@@ -362,7 +373,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 697.0, 62.0, 77.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "equal_power"
 				}
 
@@ -395,13 +405,11 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-10",
-					"linecount" : 6,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 848.0, 285.0, 150.0, 97.0 ],
-					"text" : "/lr : -100.,\n/panninglaw : \"equal_power\",\n/theta : 0.,\n/left : 1.,\n/right : 0."
+					"patching_rect" : [ 848.0, 285.0, 150.0, 33.0 ]
 				}
 
 			}
