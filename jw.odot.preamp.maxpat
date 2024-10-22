@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 224.0, 640.0, 480.0 ],
+		"rect" : [ 471.0, 487.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,7 +122,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 95.5, 292.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 95.0, 80.0, 13.0 ]
+					"presentation_rect" : [ -1.0, 95.0, 371.0, 13.0 ]
 				}
 
 			}
@@ -136,7 +136,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 95.5, 208.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 15.0, 80.0, 13.0 ]
+					"presentation_rect" : [ -1.0, 15.0, 371.0, 13.0 ]
 				}
 
 			}
@@ -179,7 +179,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 95.5, 227.0, 58.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 30.0, 80.0, 63.0 ],
+					"presentation_rect" : [ -1.0, 30.0, 371.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Preamp",

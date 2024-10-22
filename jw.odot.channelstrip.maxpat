@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, -993.0, 1140.0, 959.0 ],
+		"rect" : [ 87.0, 120.0, 1140.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,13 +53,13 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-3",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 727.0, 16.0, 58.0, 35.0 ],
+					"patching_rect" : [ 727.0, 16.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -82,13 +82,13 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 611.0, 752.0, 134.0, 35.0 ],
+					"patching_rect" : [ 611.0, 752.0, 134.0, 22.0 ],
 					"text" : "o.prepend /channelstrip"
 				}
 
@@ -107,52 +107,52 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-67",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 661.0, 691.0, 35.0, 35.0 ],
+					"patching_rect" : [ 661.0, 691.0, 35.0, 22.0 ],
 					"text" : "o.var"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-66",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 611.0, 691.0, 48.0, 35.0 ],
+					"patching_rect" : [ 611.0, 691.0, 48.0, 22.0 ],
 					"text" : "o.union"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-64",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 98.0, 64.0, 117.0, 35.0 ],
+					"patching_rect" : [ 98.0, 64.0, 117.0, 22.0 ],
 					"text" : "o.route /channelstrip"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"id" : "obj-63",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 30.0, 40.0, 155.0, 35.0 ],
+					"patching_rect" : [ 30.0, 40.0, 155.0, 22.0 ],
 					"text" : "routepass signal FullPacket"
 				}
 
@@ -200,7 +200,7 @@
 					"outlettype" : [ "signal", "FullPacket" ],
 					"patching_rect" : [ 30.0, 450.0, 515.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 342.0, 515.0, 100.0 ],
+					"presentation_rect" : [ 29.0, 337.0, 369.0, 131.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -223,7 +223,7 @@
 					"outlettype" : [ "signal", "FullPacket" ],
 					"patching_rect" : [ 30.0, 229.0, 277.0, 219.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 121.0, 277.0, 219.0 ],
+					"presentation_rect" : [ 29.0, 136.0, 369.0, 196.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -246,7 +246,7 @@
 					"outlettype" : [ "signal", "FullPacket" ],
 					"patching_rect" : [ 30.0, 552.0, 388.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 444.0, 388.0, 137.0 ],
+					"presentation_rect" : [ 29.0, 473.0, 369.0, 153.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -269,7 +269,7 @@
 					"outlettype" : [ "signal", "FullPacket" ],
 					"patching_rect" : [ 30.0, 131.0, 81.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 23.0, 81.0, 96.0 ],
+					"presentation_rect" : [ 29.0, 22.0, 369.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -376,7 +376,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -384,7 +384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -392,7 +392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-64", 0 ]
 				}
 

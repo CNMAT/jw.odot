@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 552.5, 245.0, 29.5, 22.0 ],
+					"patching_rect" : [ 552.5, 241.0, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 234.0, 50.0, 22.0 ]
+					"patching_rect" : [ 329.0, 257.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 229.0, 497.0, 150.0, 59.0 ],
-					"text" : "/delay/ms : 2.1,\n/delay/fb : 0.,\n/delay/slew : 100"
+					"text" : "/delay/ms : 3.,\n/delay/fb : 0.,\n/delay/slew : 100."
 				}
 
 			}
@@ -557,14 +557,26 @@
 		"parameters" : 		{
 			"obj-1::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-1::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-21::obj-21" : [ "Delay (ms)", "Delay (ms)", 0 ],
-			"obj-21::obj-6" : [ "Feedback (%)", "Feedback (%)", 0 ],
+			"obj-21::obj-21" : [ "Delay (ms)", "/delay", 0 ],
+			"obj-21::obj-6" : [ "Feedback (%)", "/feedback", 0 ],
+			"obj-21::obj-8" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-48" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-21::obj-21" : 				{
+					"parameter_longname" : "Delay (ms)"
+				}
+,
+				"obj-21::obj-6" : 				{
+					"parameter_longname" : "Feedback (%)"
 				}
 
 			}

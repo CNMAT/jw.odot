@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 100.0, 1636.0, 948.0 ],
+		"rect" : [ 58.0, 100.0, 1636.0, 948.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 11.0, 129.0, 225.0, 95.0 ],
+					"patching_rect" : [ 11.0, 119.5, 225.0, 95.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -422,7 +422,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 670.0, 660.0, 41.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Gate",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -454,7 +453,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-90",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -850,7 +848,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 716.0, 434.0, 232.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, -93, -120, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 60,
 					"text" : "/channelstrip/eq/hf/freq : 2500."
@@ -1118,7 +1115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 565.0, 431.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 78, 32, 0, 0, 0, 0, 0, 0, 3, -24, 0, 0, 3, -24, 0, 0, 78, 32, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 80,
 					"text" : "/channelstrip/eq/lp/freq : [20000, 0, 1000, 1000, 20000, 1000]"
@@ -1135,7 +1131,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 434.0, 438.0, 49.0 ],
-					"presentation_linecount" : 6,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 9, -60, 0, 0, 0, 0, 0, 0, 19, -120, 0, 0, 3, -24, 0, 0, 9, -60, 0, 0, 3, -24, 0, 0, 0, 84, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 105, 105, 100, 105, 100, 105, 100, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 63, -8, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 68, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 113, 0, 0, 0, 44, 100, 105, 100, 105, 100, 105, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 0, 64, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, -24, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 240,
 					"text" : "/channelstrip/eq/hf/freq : [2500, 0, 5000, 1000, 2500, 1000],\n/channelstrip/eq/hf/gain : [1, 0, 1.5, 500, 0.5, 500, 1., 500],\n/channelstrip/eq/hf/q : [0.707, 0, 5., 1000, 0.707, 1000]"
@@ -1152,7 +1147,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 352.0, 438.0, 49.0 ],
-					"presentation_linecount" : 6,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 3, 32, 0, 0, 0, 0, 0, 0, 6, 64, 0, 0, 3, -24, 0, 0, 3, 32, 0, 0, 3, -24, 0, 0, 0, 84, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 105, 105, 100, 105, 100, 105, 100, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 63, -8, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 68, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 113, 0, 0, 0, 44, 100, 105, 100, 105, 100, 105, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 0, 64, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, -24, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 240,
 					"text" : "/channelstrip/eq/mh/freq : [800, 0, 1600, 1000, 800, 1000],\n/channelstrip/eq/mh/gain : [1, 0, 1.5, 500, 0.5, 500, 1., 500],\n/channelstrip/eq/mh/q : [0.707, 0, 5., 1000, 0.707, 1000]"
@@ -1169,7 +1163,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 271.0, 438.0, 49.0 ],
-					"presentation_linecount" : 6,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 0, 75, 0, 0, 0, 0, 0, 0, 1, 44, 0, 0, 3, -24, 0, 0, 0, 75, 0, 0, 3, -24, 0, 0, 0, 84, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 105, 105, 100, 105, 100, 105, 100, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 63, -8, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 68, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 113, 0, 0, 0, 44, 100, 105, 100, 105, 100, 105, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 0, 64, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, -24, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 240,
 					"text" : "/channelstrip/eq/lm/freq : [75, 0, 300, 1000, 75, 1000],\n/channelstrip/eq/lm/gain : [1, 0, 1.5, 500, 0.5, 500, 1., 500],\n/channelstrip/eq/lm/q : [0.707, 0, 5., 1000, 0.707, 1000]"
@@ -1186,7 +1179,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 140.0, 438.0, 49.0 ],
-					"presentation_linecount" : 6,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, -56, 0, 0, 3, -24, 0, 0, 0, 30, 0, 0, 3, -24, 0, 0, 0, 84, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 105, 105, 100, 105, 100, 105, 100, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 63, -8, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 68, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 113, 0, 0, 0, 44, 100, 105, 100, 105, 100, 105, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 0, 64, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, -24, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 240,
 					"text" : "/channelstrip/eq/lf/freq : [30, 0, 200, 1000, 30, 1000],\n/channelstrip/eq/lf/gain : [1, 0, 1.5, 500, 0.5, 500, 1., 500],\n/channelstrip/eq/lf/q : [0.707, 0, 5., 1000, 0.707, 1000]"
@@ -1311,7 +1303,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 87.0, 385.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 105, 105, 105, 105, 105, 0, 64, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 1, -12, 0, 0, 0, 20, 0, 0, 1, -12 ],
 					"saved_bundle_length" : 84,
 					"text" : "/channelstrip/eq/hp/freq : [100., 0, 500, 500, 20, 500]"
@@ -1327,7 +1318,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 716.0, 87.0, 226.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, 89, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 60,
 					"text" : "/channelstrip/eq/hp/freq : 100."
@@ -1350,12 +1340,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"linecount" : 9,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 119.5, 302.0, 127.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 245.0, 119.5, 407.0, 87.0 ],
 					"text" : "jw.odot.channelstrip provides a mixer-style input channel strip with preamp, EQ, Noise Gate, and Compressor. The parameters of each of these modules can be captured and specified from an odot bundle input The object also reports its current state via an odot bundle whenever a parameter in any of the sub-modules is changed. For more detail on the individual modules, please see their individual help patchers."
 				}
 
@@ -1369,7 +1358,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.0, 32.0, 365.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 112, 114, 101, 97, 109, 112, 47, 100, 98, 0, 44, 100, 105, 100, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -64, 62, 0, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 0, 0, 0, 1, -12 ],
 					"saved_bundle_length" : 84,
 					"text" : "/channelstrip/preamp/db : [0., 0, -30., 500, 0, 500]"
@@ -1419,7 +1407,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 819.0, 530.0, 83.0 ]
+					"patching_rect" : [ 11.0, 877.0, 424.0, 69.0 ]
 				}
 
 			}
@@ -1433,7 +1421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.0, 954.0, 289.0, 417.0 ],
-					"text" : "/channelstrip/noisegate/thresh : -22.6772,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/compressor/release : 1.,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/lm/freq : 75.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/hf/gain : 0.5,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lf/gain : 0.5,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 4,\n/channelstrip/eq/hf/shelf : 0,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/preamp/db : 0."
+					"text" : "/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/preamp/db : 0.,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/thresh : -80."
 				}
 
 			}
@@ -1477,7 +1465,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 11.0, 250.0, 530.0, 564.0 ],
+					"patching_rect" : [ 11.0, 221.5, 424.0, 648.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1958,21 +1946,64 @@
 		"parameters" : 		{
 			"obj-1::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-1::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-2::obj-14::obj-24" : [ "Input[1]", "Input", 0 ],
-			"obj-2::obj-14::obj-25" : [ "Threshold[1]", "Threshold", 0 ],
-			"obj-2::obj-14::obj-42" : [ "Ratio[1]", "Ratio", 0 ],
-			"obj-2::obj-14::obj-46" : [ "Attack[1]", "Attack", 0 ],
-			"obj-2::obj-14::obj-51" : [ "Release Rate", "Release Rate", 0 ],
-			"obj-2::obj-14::obj-55" : [ "Output[1]", "Output", 0 ],
-			"obj-2::obj-4::obj-9" : [ "Preamp", "Pre", 0 ],
-			"obj-2::obj-52::obj-11" : [ "Threshold", "Thresh", 0 ],
-			"obj-2::obj-52::obj-52" : [ "Input", "Input", 0 ],
-			"obj-2::obj-52::obj-55" : [ "Output", "Output", 0 ],
+			"obj-2::obj-14::obj-24" : [ "Input[1]", "/input", 0 ],
+			"obj-2::obj-14::obj-25" : [ "Threshold[1]", "/threshold", 0 ],
+			"obj-2::obj-14::obj-42" : [ "Ratio[1]", "/ratio", 0 ],
+			"obj-2::obj-14::obj-46" : [ "Attack[1]", "/attack", 0 ],
+			"obj-2::obj-14::obj-51" : [ "Release Rate", "/release", 0 ],
+			"obj-2::obj-14::obj-55" : [ "Output[1]", "/output", 0 ],
+			"obj-2::obj-4::obj-9" : [ "Preamp", "/db", 0 ],
+			"obj-2::obj-52::obj-11" : [ "Threshold", "/threshold", 0 ],
+			"obj-2::obj-52::obj-52" : [ "Input", "/input", 0 ],
+			"obj-2::obj-52::obj-55" : [ "Output", "/output", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-2::obj-14::obj-24" : 				{
+					"parameter_longname" : "Input[1]"
+				}
+,
+				"obj-2::obj-14::obj-25" : 				{
+					"parameter_longname" : "Threshold[1]"
+				}
+,
+				"obj-2::obj-14::obj-42" : 				{
+					"parameter_longname" : "Ratio[1]"
+				}
+,
+				"obj-2::obj-14::obj-46" : 				{
+					"parameter_longname" : "Attack[1]"
+				}
+,
+				"obj-2::obj-14::obj-51" : 				{
+					"parameter_longname" : "Release Rate"
+				}
+,
+				"obj-2::obj-14::obj-55" : 				{
+					"parameter_longname" : "Output[1]"
+				}
+,
+				"obj-2::obj-4::obj-9" : 				{
+					"parameter_longname" : "Preamp"
+				}
+,
+				"obj-2::obj-52::obj-11" : 				{
+					"parameter_longname" : "Threshold"
+				}
+,
+				"obj-2::obj-52::obj-52" : 				{
+					"parameter_longname" : "Input"
+				}
+,
+				"obj-2::obj-52::obj-55" : 				{
+					"parameter_longname" : "Output"
 				}
 
 			}

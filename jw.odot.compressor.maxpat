@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 234.0, 902.0, 682.0 ],
+		"rect" : [ 631.0, 304.0, 902.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.0, 478.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 370.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 81.0, 20.0 ],
 					"text" : "/compressor"
 				}
 
@@ -415,7 +415,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -467,7 +467,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 593.0, 171.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 322.0, 65.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 294.0, 2.0, 50.0, 20.0 ],
 					"text" : "/bypass",
 					"textjustification" : 2
 				}
@@ -477,7 +477,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-70",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -613,7 +613,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.0, 169.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 87.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 346.0, 0.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -651,11 +651,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 496.0, 178.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 253.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 324.0, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/output",
+							"parameter_longname" : "Output[1]",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 3,
@@ -704,11 +704,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 437.0, 178.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 63.0, 54.0, 48.0 ],
+					"presentation_rect" : [ 252.599999999999994, 63.0, 54.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/release",
+							"parameter_longname" : "Release Rate",
 							"parameter_mmax" : 150.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "/release",
@@ -756,11 +756,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 378.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 189.199999999999989, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/attack",
+							"parameter_longname" : "Attack[1]",
 							"parameter_mmax" : 150.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "/attack",
@@ -820,11 +820,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 319.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 125.799999999999997, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/ratio",
+							"parameter_longname" : "Ratio[1]",
 							"parameter_mmax" : 44.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
@@ -956,11 +956,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 260.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 62.399999999999999, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/threshold",
+							"parameter_longname" : "Threshold[1]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -36.0,
 							"parameter_modmode" : 3,
@@ -989,7 +989,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "/input",
+							"parameter_longname" : "Input[1]",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 3,
@@ -1104,11 +1104,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 133.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -1490,47 +1490,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-24" : [ "/input", "/input", 0 ],
-			"obj-25" : [ "/threshold", "/threshold", 0 ],
-			"obj-42" : [ "/ratio", "/ratio", 0 ],
-			"obj-46" : [ "/attack", "/attack", 0 ],
-			"obj-51" : [ "/release", "/release", 0 ],
-			"obj-55" : [ "/output", "/output", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-40", "obj-41", "obj-39", "obj-37", "obj-36", "obj-35", "obj-26", "obj-33" ]
 			}
