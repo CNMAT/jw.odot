@@ -324,8 +324,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 259.0, 122.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 74.0, 48.0, 20.0 ],
-					"text" : "Bypass",
+					"presentation_rect" : [ 48.0, 74.0, 50.0, 20.0 ],
+					"text" : "/bypass",
 					"textjustification" : 2
 				}
 
@@ -425,8 +425,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.0, 478.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 0.0, 107.0, 20.0 ],
-					"text" : "Basic Noise Gate"
+					"presentation_rect" : [ -2.0, 0.0, 107.0, 20.0 ],
+					"text" : "/noisegate"
 				}
 
 			}
@@ -503,11 +503,11 @@
 					"presentation_rect" : [ 84.0, 22.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Output",
+							"parameter_longname" : "/output",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "Output",
+							"parameter_shortname" : "/output",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -556,11 +556,11 @@
 					"presentation_rect" : [ -2.0, 22.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Input",
+							"parameter_longname" : "/input",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "Input",
+							"parameter_shortname" : "/input",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -900,11 +900,11 @@
 					"presentation_rect" : [ 41.0, 22.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Threshold",
+							"parameter_longname" : "/threshold",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -80.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "Thresh",
+							"parameter_shortname" : "/threshold",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -1235,9 +1235,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "Threshold", "Thresh", 0 ],
-			"obj-52" : [ "Input", "Input", 0 ],
-			"obj-55" : [ "Output", "Output", 0 ],
+			"obj-11" : [ "/threshold", "/threshold", 0 ],
+			"obj-52" : [ "/input", "/input", 0 ],
+			"obj-55" : [ "/output", "/output", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.0, 67.0, 156.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.0, -3.0, 55.0, 20.0 ],
+					"text" : "/preamp"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -108,7 +122,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 95.5, 292.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 80.0, 80.0, 13.0 ]
+					"presentation_rect" : [ -1.0, 95.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -122,7 +136,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 95.5, 208.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 0.0, 80.0, 13.0 ]
+					"presentation_rect" : [ -1.0, 15.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -165,15 +179,15 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 95.5, 227.0, 58.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 15.0, 80.0, 63.0 ],
+					"presentation_rect" : [ -1.0, 30.0, 80.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Preamp",
-							"parameter_longname" : "Preamp",
+							"parameter_longname" : "/db",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -80.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Pre",
+							"parameter_shortname" : "/db",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -388,7 +402,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9" : [ "Preamp", "Pre", 0 ],
+			"obj-9" : [ "/db", "/db", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

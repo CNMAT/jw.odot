@@ -40,6 +40,46 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 552.5, 245.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-6",
+					"maxclass" : "flonum",
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 491.0, 234.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 552.5, 217.0, 99.0, 22.0 ],
+					"text" : "o.pack /delay/ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -63,11 +103,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 6,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 144.0, 331.0, 87.0 ],
+					"patching_rect" : [ 262.0, 144.0, 501.0, 60.0 ],
 					"text" : "jw.odot.delay implements a tapin/tapout delay with crossfade to avoid clicking and pitch shifts when the delay time is altered. All parameters accept line messages. The object will throw an error if a delay time is requested below the renderable limit, t, where...\nt = 1000 * {signal vector size} / {sample rate} [ms]"
 				}
 
@@ -155,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 229.0, 497.0, 150.0, 59.0 ],
-					"text" : "/delay/ms : 11.9875,\n/delay/fb : 92.136,\n/delay/slew : 100"
+					"text" : "/delay/ms : 2.1,\n/delay/fb : 0.,\n/delay/slew : 100"
 				}
 
 			}
@@ -258,7 +298,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 391.0, 374.0, 232.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, -30, 0, 0, 78, 32, 0, 0, 0, 40, 47, 100, 101, 108, 97, 121, 47, 102, 98, 0, 0, 0, 44, 105, 105, 100, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 84, 19, 51, 51, 51, 51, 51, 0, 0, 78, 32 ],
 					"saved_bundle_length" : 100,
 					"text" : "/delay/ms : [0, 0, 4066, 20000],\n/delay/fb : [0, 0, 80.3, 20000]"
@@ -274,7 +313,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 663.0, 282.0, 206.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 100, 101, 108, 97, 121, 47, 102, 98, 0, 0, 0, 44, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 75, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 56,
 					"text" : "/delay/fb : [0, 0, 75, 1000]"
@@ -306,7 +344,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 391.0, 418.0, 246.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 105, 105, 100, 105, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 30, 64, 4, 0, 0, 0, 0, 0, 0, 0, 0, 78, 32, 0, 0, 0, 36, 47, 100, 101, 108, 97, 121, 47, 102, 98, 0, 0, 0, 44, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, -24, 0, 0, 0, 99, 0, 0, 58, -104 ],
 					"saved_bundle_length" : 100,
 					"text" : "/delay/ms : [40, 30, 2.5, 20000],\n/delay/fb : [0, 1000, 99, 15000]"
@@ -322,9 +359,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 391.0, 257.0, 150.0, 23.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0 ],
-					"saved_bundle_length" : 40,
-					"text" : "/delay/ms : 0"
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 100, 0, 0, 64, 0, -52, -52, -52, -52, -52, -51 ],
+					"saved_bundle_length" : 44,
+					"text" : "/delay/ms : 2.1"
 				}
 
 			}
@@ -402,6 +439,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"hidden" : 1,
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-21", 1 ]
 				}
@@ -472,6 +525,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
 					"source" : [ "obj-48", 1 ]
 				}
@@ -481,6 +542,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

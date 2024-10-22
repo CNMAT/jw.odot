@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 234.0, 1420.0, 682.0 ],
+		"rect" : [ 274.0, 234.0, 902.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,8 +47,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.0, 478.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 0.0, 370.0, 20.0 ],
-					"text" : "Compressor"
+					"presentation_rect" : [ 0.0, 0.0, 370.0, 20.0 ],
+					"text" : "/compressor"
 				}
 
 			}
@@ -74,9 +74,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 0,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -467,8 +467,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 593.0, 171.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.0, 65.0, 48.0, 20.0 ],
-					"text" : "Bypass",
+					"presentation_rect" : [ 322.0, 65.0, 50.0, 20.0 ],
+					"text" : "/bypass",
 					"textjustification" : 2
 				}
 
@@ -493,7 +493,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 222.0, 625.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 134.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 17.0, 134.0, 26.0, 20.0 ],
 					"text" : "-18"
 				}
 
@@ -506,7 +506,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 273.0, 625.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 134.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 68.0, 134.0, 26.0, 20.0 ],
 					"text" : "-15"
 				}
 
@@ -519,7 +519,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.0, 625.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.0, 134.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 119.0, 134.0, 26.0, 20.0 ],
 					"text" : "-12"
 				}
 
@@ -532,7 +532,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.0, 625.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 179.0, 134.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 176.0, 134.0, 19.0, 20.0 ],
 					"text" : "-9"
 				}
 
@@ -545,7 +545,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 625.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 134.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 228.0, 134.0, 19.0, 20.0 ],
 					"text" : "-6"
 				}
 
@@ -558,7 +558,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 484.0, 625.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 134.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 279.0, 134.0, 19.0, 20.0 ],
 					"text" : "-3"
 				}
 
@@ -571,7 +571,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 556.0, 625.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 134.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 351.0, 134.0, 19.0, 20.0 ],
 					"text" : "0"
 				}
 
@@ -587,7 +587,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 205.0, 609.0, 370.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 118.0, 370.0, 12.0 ]
+					"presentation_rect" : [ 0.0, 118.0, 370.0, 12.0 ]
 				}
 
 			}
@@ -613,7 +613,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.0, 169.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 349.0, 87.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 346.0, 87.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -651,15 +651,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 496.0, 178.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 256.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 253.0, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Output[1]",
+							"parameter_longname" : "/output",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Output",
+							"parameter_shortname" : "/output",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -704,14 +704,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 437.0, 178.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 63.0, 54.0, 48.0 ],
+					"presentation_rect" : [ 202.0, 63.0, 54.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Release Rate",
+							"parameter_longname" : "/release",
 							"parameter_mmax" : 150.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Release Rate",
+							"parameter_shortname" : "/release",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -756,14 +756,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 378.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 147.0, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Attack[1]",
+							"parameter_longname" : "/attack",
 							"parameter_mmax" : 150.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Attack",
+							"parameter_shortname" : "/attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -820,15 +820,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 319.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 99.0, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Ratio[1]",
+							"parameter_longname" : "/ratio",
 							"parameter_mmax" : 44.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "Ratio",
+							"parameter_shortname" : "/ratio",
 							"parameter_type" : 1,
 							"parameter_units" : ": 1",
 							"parameter_unitstyle" : 9
@@ -848,7 +848,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 410.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 23.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 17.0, 23.0, 26.0, 20.0 ],
 					"text" : "-18"
 				}
 
@@ -861,7 +861,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 290.0, 410.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 23.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 68.0, 23.0, 26.0, 20.0 ],
 					"text" : "-15"
 				}
 
@@ -874,7 +874,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 341.0, 410.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.0, 23.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 119.0, 23.0, 26.0, 20.0 ],
 					"text" : "-12"
 				}
 
@@ -887,7 +887,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.0, 410.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 179.0, 23.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 176.0, 23.0, 19.0, 20.0 ],
 					"text" : "-9"
 				}
 
@@ -900,7 +900,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 450.0, 410.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 23.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 228.0, 23.0, 19.0, 20.0 ],
 					"text" : "-6"
 				}
 
@@ -913,7 +913,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 501.0, 410.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 23.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 279.0, 23.0, 19.0, 20.0 ],
 					"text" : "-3"
 				}
 
@@ -926,7 +926,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 573.0, 410.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 23.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 351.0, 23.0, 19.0, 20.0 ],
 					"text" : "0"
 				}
 
@@ -942,7 +942,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 222.0, 432.0, 370.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 45.0, 370.0, 12.0 ]
+					"presentation_rect" : [ 0.0, 45.0, 370.0, 12.0 ]
 				}
 
 			}
@@ -956,15 +956,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 260.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 63.0, 46.0, 48.0 ],
+					"presentation_rect" : [ 47.0, 63.0, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Threshold[1]",
+							"parameter_longname" : "/threshold",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -36.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Threshold",
+							"parameter_shortname" : "/threshold",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -985,15 +985,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 201.0, 178.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 63.0, 45.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 63.0, 45.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Input[1]",
+							"parameter_longname" : "/input",
 							"parameter_mmax" : 42.0,
 							"parameter_mmin" : -42.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Input",
+							"parameter_shortname" : "/input",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -1491,12 +1491,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-24" : [ "Input[1]", "Input", 0 ],
-			"obj-25" : [ "Threshold[1]", "Threshold", 0 ],
-			"obj-42" : [ "Ratio[1]", "Ratio", 0 ],
-			"obj-46" : [ "Attack[1]", "Attack", 0 ],
-			"obj-51" : [ "Release Rate", "Release Rate", 0 ],
-			"obj-55" : [ "Output[1]", "Output", 0 ],
+			"obj-24" : [ "/input", "/input", 0 ],
+			"obj-25" : [ "/threshold", "/threshold", 0 ],
+			"obj-42" : [ "/ratio", "/ratio", 0 ],
+			"obj-46" : [ "/attack", "/attack", 0 ],
+			"obj-51" : [ "/release", "/release", 0 ],
+			"obj-55" : [ "/output", "/output", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
