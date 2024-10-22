@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 306.0, 186.0, 150.0, 20.0 ],
+					"text" : "Bang Reports State"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 280.0, 186.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -87,7 +110,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.0, 399.0, 213.0, 110.0 ],
-					"text" : "/compressor/threshold : 0.,\n/compressor/input : 0.,\n/compressor/ratio : 1,\n/compressor/attack : 0.,\n/compressor/release : 0.,\n/compressor/output : 0.,\n/compressor/bypass : 0"
+					"text" : "/compressor/ratio : 1,\n/compressor/input : 0.,\n/compressor/threshold : 0.,\n/compressor/attack : 0.,\n/compressor/release : 0.,\n/compressor/output : 0.,\n/compressor/bypass : 0"
 				}
 
 			}
@@ -98,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.5, 121.0, 611.5, 47.0 ],
+					"patching_rect" : [ 243.5, 121.0, 615.0, 47.0 ],
 					"text" : "jw.odot.compressor implements omx.comp~ with odot message management. The parameters for this object can be set via simple odot messages or via line-formatted odot messages. The object also reports its state via an odot bundle within the /compressor address space (see below)"
 				}
 
@@ -523,6 +546,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 289.5, 216.5, 21.5, 216.5 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}

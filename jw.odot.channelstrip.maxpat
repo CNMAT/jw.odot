@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 611.0, 76.0, 66.0, 22.0 ],
+					"text" : "t b b b b b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "comment",
@@ -88,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 611.0, 752.0, 134.0, 22.0 ],
+					"patching_rect" : [ 611.0, 780.0, 134.0, 22.0 ],
 					"text" : "o.prepend /channelstrip"
 				}
 
@@ -113,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 661.0, 691.0, 35.0, 22.0 ],
+					"patching_rect" : [ 661.0, 756.0, 35.0, 22.0 ],
 					"text" : "o.var"
 				}
 
@@ -126,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 611.0, 691.0, 48.0, 22.0 ],
+					"patching_rect" : [ 611.0, 756.0, 48.0, 22.0 ],
 					"text" : "o.union"
 				}
 
@@ -139,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 98.0, 64.0, 117.0, 22.0 ],
+					"patching_rect" : [ 30.0, 69.0, 117.0, 22.0 ],
 					"text" : "o.route /channelstrip"
 				}
 
@@ -149,11 +161,11 @@
 					"fontface" : 0,
 					"id" : "obj-63",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 30.0, 40.0, 155.0, 22.0 ],
-					"text" : "routepass signal FullPacket"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 9.0, 40.0, 185.0, 22.0 ],
+					"text" : "routepass signal FullPacket bang"
 				}
 
 			}
@@ -178,7 +190,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 4.0, 30.0, 30.0 ]
+					"patching_rect" : [ 9.0, 4.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -198,7 +210,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 30.0, 450.0, 515.0, 100.0 ],
+					"patching_rect" : [ 30.0, 450.0, 372.0, 135.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 337.0, 369.0, 131.0 ],
 					"viewvisibility" : 1
@@ -244,7 +256,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 30.0, 552.0, 388.0, 137.0 ],
+					"patching_rect" : [ 30.0, 598.0, 368.0, 135.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 473.0, 369.0, 153.0 ],
 					"viewvisibility" : 1
@@ -267,7 +279,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 30.0, 131.0, 81.0, 96.0 ],
+					"patching_rect" : [ 30.0, 112.0, 372.0, 115.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 22.0, 369.0, 110.0 ],
 					"viewvisibility" : 1
@@ -299,6 +311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
+					"midpoints" : [ 736.5, 457.0, 689.0, 457.0, 689.0, 29.0, 18.5, 29.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -341,6 +354,45 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 667.5, 593.5, 39.5, 593.5 ],
+					"source" : [ "obj-5", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"midpoints" : [ 644.0, 228.0, 39.5, 228.0 ],
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 632.25, 104.5, 39.5, 104.5 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"midpoints" : [ 655.75, 450.5, 39.5, 450.5 ],
+					"source" : [ "obj-5", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -363,6 +415,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 129.166666666666686, 68.5, 620.5, 68.5 ],
+					"source" : [ "obj-63", 2 ]
 				}
 
 			}

@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-14",
+					"maxclass" : "o.compose",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 544.0, 1023.0, 150.0, 23.0 ],
+					"saved_bundle_data" : [  ],
+					"saved_bundle_length" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 479.0, 215.0, 157.0, 20.0 ],
+					"text" : "Bang Reports Current State"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 453.0, 213.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "@file", "drumLoop.aif" ],
 					"bgmode" : 0,
@@ -1344,7 +1381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 119.5, 407.0, 87.0 ],
+					"patching_rect" : [ 245.0, 119.5, 410.0, 87.0 ],
 					"text" : "jw.odot.channelstrip provides a mixer-style input channel strip with preamp, EQ, Noise Gate, and Compressor. The parameters of each of these modules can be captured and specified from an odot bundle input The object also reports its current state via an odot bundle whenever a parameter in any of the sub-modules is changed. For more detail on the individual modules, please see their individual help patchers."
 				}
 
@@ -1576,6 +1613,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-15", 0 ]
@@ -1698,6 +1742,14 @@
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 462.5, 258.0, 444.5, 258.0, 444.5, 210.5, 20.5, 210.5 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
