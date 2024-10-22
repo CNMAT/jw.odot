@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 631.0, 304.0, 902.0, 682.0 ],
+		"rect" : [ 579.0, 181.0, 1034.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 834.0, 10.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-15",
+					"linecount" : 6,
+					"maxclass" : "o.compose",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 834.0, 34.0, 150.0, 87.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 110, 112, 117, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 104, 114, 101, 115, 104, 111, 108, 100, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 114, 97, 116, 105, 111, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 97, 116, 116, 97, 99, 107, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 114, 101, 108, 101, 97, 115, 101, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 111, 117, 116, 112, 117, 116, 0, 44, 105, 0, 0, 0, 0, 0, 0 ],
+					"saved_bundle_length" : 144,
+					"text" : "/input : 0,\n/threshold : 0,\n/ratio : 1,\n/attack : 0,\n/release : 0,\n/output : 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-13",
@@ -413,9 +441,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "ODOT State (FullPacket)",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -475,9 +503,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Output (signal)",
 					"id" : "obj-70",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1102,13 +1130,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Input (signal), ODOT control messages (FullPacket)",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -1174,6 +1202,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 843.5, 131.0, 693.0, 131.0, 693.0, 102.0, 210.5, 102.0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1490,6 +1533,51 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-24" : [ "Input[1]", "/input", 0 ],
+			"obj-25" : [ "Threshold[1]", "/threshold", 0 ],
+			"obj-42" : [ "Ratio[1]", "/ratio", 0 ],
+			"obj-46" : [ "Attack[1]", "/attack", 0 ],
+			"obj-51" : [ "Release Rate", "/release", 0 ],
+			"obj-55" : [ "Output[1]", "/output", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-40", "obj-41", "obj-39", "obj-37", "obj-36", "obj-35", "obj-26", "obj-33" ]
 			}
