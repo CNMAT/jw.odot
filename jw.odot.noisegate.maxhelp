@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 206.0, 103.0, 1488.0, 633.0 ],
+		"rect" : [ 100.0, 100.0, 1488.0, 633.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 957.716979026794434, 221.0, 73.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Line Format"
 				}
 
@@ -124,6 +123,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -186,7 +186,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 134.5, 410.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "jw.odot.noisegate provides a omx.comp~ configured as a noise gate. The state of the noise gate can be set with GUI or odot messages. The object also reports its current state via an odot bundle whenever a parameter is changed or the object receives a 'bang' message. VU meters are provided for input/output monitoring as well as gain reduction."
 				}
 
