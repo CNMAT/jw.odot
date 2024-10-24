@@ -127,12 +127,15 @@
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-58",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.0, 421.0, 100.0, 20.0 ],
+					"patching_rect" : [ 745.0, 421.0, 100.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 3.0, 75.0, 20.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 118.0, 3.0, 75.0, 74.0 ],
+					"text" : "Delay Cannot Be Rendered; Check sr & sigvs",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -506,11 +509,11 @@
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 97.0, 45.0, 155.0, 22.0 ],
-					"text" : "routepass signal FullPacket"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 97.0, 45.0, 185.0, 22.0 ],
+					"text" : "routepass signal FullPacket bang"
 				}
 
 			}
@@ -1107,6 +1110,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-26", 2 ]
 				}
 
 			}
