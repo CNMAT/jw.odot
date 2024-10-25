@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 118.0, 904.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,45 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.0, 50.0, 150.0, 20.0 ],
+					"text" : "FX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 330.0, 27.0, 150.0, 20.0 ],
+					"text" : "Module Compositions"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.0, 27.0, 150.0, 20.0 ],
+					"text" : "Basic Module Abstractions"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 331.0, 49.0, 111.0, 22.0 ],
+					"patching_rect" : [ 330.0, 73.0, 111.0, 22.0 ],
 					"text" : "jw.odot.input /piano"
 				}
 
@@ -57,7 +90,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 39.5, 97.0, 102.0, 22.0 ],
+					"patching_rect" : [ 40.0, 145.0, 102.0, 22.0 ],
 					"text" : "jw.odot.matrix 4 4"
 				}
 
@@ -69,7 +102,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 169.0, 93.0, 22.0 ],
+					"patching_rect" : [ 40.0, 217.0, 93.0, 22.0 ],
 					"text" : "jw.odot.ringmod"
 				}
 
@@ -81,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 25.0, 112.0, 22.0 ],
+					"patching_rect" : [ 40.0, 73.0, 112.0, 22.0 ],
 					"text" : "jw.odot.compressor"
 				}
 
@@ -93,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 121.0, 101.0, 22.0 ],
+					"patching_rect" : [ 40.0, 169.0, 101.0, 22.0 ],
 					"text" : "jw.odot.noisegate"
 				}
 
@@ -105,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 73.0, 63.0, 22.0 ],
+					"patching_rect" : [ 40.0, 121.0, 63.0, 22.0 ],
 					"text" : "jw.odot.eq"
 				}
 
@@ -117,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 145.0, 90.0, 22.0 ],
+					"patching_rect" : [ 40.0, 193.0, 90.0, 22.0 ],
 					"text" : "jw.odot.preamp"
 				}
 
@@ -129,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 331.0, 25.0, 114.0, 22.0 ],
+					"patching_rect" : [ 330.0, 49.0, 114.0, 22.0 ],
 					"text" : "jw.odot.channelstrip"
 				}
 
@@ -141,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 40.0, 49.0, 78.0, 22.0 ],
+					"patching_rect" : [ 40.0, 97.0, 78.0, 22.0 ],
 					"text" : "jw.odot.delay"
 				}
 
