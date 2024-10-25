@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 					"patching_rect" : [ 530.0, 155.0, 306.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 2.0, 306.0, 33.0 ],
-					"text" : "/violin2 Input"
+					"text" : "#1 Input"
 				}
 
 			}
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -152,7 +152,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -164,11 +164,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -244,7 +244,91 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-4::obj-14::obj-24" : [ "Input[1]", "/input", 0 ],
+			"obj-4::obj-14::obj-25" : [ "Threshold[1]", "/threshold", 0 ],
+			"obj-4::obj-14::obj-42" : [ "Ratio[1]", "/ratio", 0 ],
+			"obj-4::obj-14::obj-46" : [ "Attack[1]", "/attack", 0 ],
+			"obj-4::obj-14::obj-51" : [ "Release Rate", "/release", 0 ],
+			"obj-4::obj-14::obj-55" : [ "Output[1]", "/output", 0 ],
+			"obj-4::obj-4::obj-9" : [ "/db", "/db", 0 ],
+			"obj-4::obj-52::obj-11" : [ "/threshold", "/threshold", 0 ],
+			"obj-4::obj-52::obj-52" : [ "/input", "/input", 0 ],
+			"obj-4::obj-52::obj-55" : [ "/output", "/output", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "jw.odot.channelstrip.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.odot.compressor.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.odot.eq.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.odot.noisegate.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.odot.preamp.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

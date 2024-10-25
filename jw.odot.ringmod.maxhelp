@@ -127,7 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.0, 406.0, 124.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set Output Level (dB)",
 					"textjustification" : 1
 				}
@@ -522,13 +521,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"source" : [ "obj-48", 1 ]
+					"order" : 0,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
 
