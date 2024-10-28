@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Ouput (signal)",
+					"comment" : "Spectrum (FullPacket) /out lists Freq/amp pairs",
 					"id" : "obj-2",
 					"index" : 0,
 					"maxclass" : "outlet",
