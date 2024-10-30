@@ -40,6 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "FullPacket" ],
+					"patching_rect" : [ 287.0, 73.0, 97.0, 22.0 ],
+					"text" : "jw.odot.oscillator"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "FullPacket" ],
+					"patching_rect" : [ 287.0, 97.0, 81.0, 22.0 ],
+					"text" : "jw.odot.series"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.0, 49.0, 150.0, 20.0 ],
+					"text" : "Generators"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -55,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 27.0, 150.0, 20.0 ],
+					"patching_rect" : [ 534.0, 27.0, 150.0, 20.0 ],
 					"text" : "Module Compositions"
 				}
 
@@ -78,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 330.0, 73.0, 111.0, 22.0 ],
+					"patching_rect" : [ 534.0, 73.0, 111.0, 22.0 ],
 					"text" : "jw.odot.input /piano"
 				}
 
@@ -162,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "FullPacket" ],
-					"patching_rect" : [ 330.0, 49.0, 114.0, 22.0 ],
+					"patching_rect" : [ 534.0, 49.0, 114.0, 22.0 ],
 					"text" : "jw.odot.channelstrip"
 				}
 
@@ -182,6 +217,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-16" : [ "/ratio", "/ratio", 0 ],
+			"obj-10::obj-24" : [ "/mask", "/mask", 0 ],
+			"obj-10::obj-33" : [ "/n", "/n", 0 ],
+			"obj-10::obj-4" : [ "/fundamental", "/fundamental", 0 ],
+			"obj-10::obj-50" : [ "/stretch", "/stretch", 0 ],
 			"obj-11::obj-4::obj-14::obj-24" : [ "Input[3]", "/input", 0 ],
 			"obj-11::obj-4::obj-14::obj-25" : [ "Threshold[3]", "/threshold", 0 ],
 			"obj-11::obj-4::obj-14::obj-42" : [ "Ratio[3]", "/ratio", 0 ],
@@ -192,6 +232,9 @@
 			"obj-11::obj-4::obj-52::obj-11" : [ "/threshold[2]", "/threshold", 0 ],
 			"obj-11::obj-4::obj-52::obj-52" : [ "/input[2]", "/input", 0 ],
 			"obj-11::obj-4::obj-52::obj-55" : [ "/output[3]", "/output", 0 ],
+			"obj-12::obj-10" : [ "/duty_cycle", "/duty_cycle", 0 ],
+			"obj-12::obj-38" : [ "live.tab", "live.tab", 0 ],
+			"obj-12::obj-4" : [ "/frequency", "/frequency", 0 ],
 			"obj-1::obj-21" : [ "/delay", "/delay", 0 ],
 			"obj-1::obj-6" : [ "/feedback", "/feedback", 0 ],
 			"obj-1::obj-8" : [ "live.numbox", "live.numbox", 0 ],
@@ -367,6 +410,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jw.odot.oscillator.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jw.odot.preamp.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
 				"patcherrelativepath" : ".",
@@ -381,7 +431,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jw.odot.series.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -397,11 +458,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.union.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sinusoids~.mxo",
 				"type" : "iLaX"
 			}
  ],
