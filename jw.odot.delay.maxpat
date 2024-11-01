@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 420.0, 100.0, 741.0, 480.0 ],
+		"rect" : [ 502.0, -835.0, 741.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -320,7 +320,7 @@
 				"box" : 				{
 					"comment" : "ODOT State (FullPacket)",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -421,7 +421,7 @@
 				"box" : 				{
 					"comment" : "Output (signal)",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -488,8 +488,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 165.0, 96.0, 116.0, 22.0 ],
-					"text" : "o.route /ms /fb /slew"
+					"patching_rect" : [ 165.0, 96.0, 155.0, 22.0 ],
+					"text" : "o.route /ms /feedback /slew"
 				}
 
 			}
@@ -521,11 +521,11 @@
 				"box" : 				{
 					"comment" : "Input (signal), ODOT Control Messages (FullPacket)",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 97.0, 10.0, 30.0, 30.0 ]
 				}
 
@@ -905,10 +905,10 @@
 					"presentation_rect" : [ 7.0, 25.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "/delay",
+							"parameter_longname" : "/ms",
 							"parameter_mmax" : 5000.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "/delay",
+							"parameter_shortname" : "/ms",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
 						}
@@ -1402,48 +1402,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-21" : [ "/delay", "/delay", 0 ],
-			"obj-6" : [ "/feedback", "/feedback", 0 ],
-			"obj-8" : [ "live.numbox", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 	}
 
