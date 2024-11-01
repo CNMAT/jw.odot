@@ -1080,7 +1080,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 510.5, 150.0, 33.0 ],
-					"text" : "/value : 38.156"
+					"text" : "/value : 23.328"
 				}
 
 			}
@@ -1131,7 +1131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 889.0, 526.0, 236.0, 161.0 ],
-					"text" : "/bollinger/out/x : 52.368,\n/bollinger/out/n : 100,\n/bollinger/out/scaleFactor : 0.5,\n/bollinger/out/xAvg : 34.9652,\n/bollinger/out/sigma2 : 94.6038,\n/bollinger/out/prevAvg : 34.7911,\n/bollinger/out/sigma : 9.72645,\n/bollinger/out/ubb : 39.8284,\n/bollinger/out/lbb : 30.1019,\n/bollinger/out/highTrigger : 1,\n/bollinger/out/lowTrigger : 0"
+					"text" : "/bollinger/out/x : 23.328,\n/bollinger/out/n : 100,\n/bollinger/out/scaleFactor : 0.5,\n/bollinger/out/xAvg : 28.0688,\n/bollinger/out/sigma2 : 123.813,\n/bollinger/out/prevAvg : 28.1162,\n/bollinger/out/sigma : 11.1271,\n/bollinger/out/ubb : 33.6324,\n/bollinger/out/lbb : 22.5052,\n/bollinger/out/highTrigger : 0,\n/bollinger/out/lowTrigger : 0"
 				}
 
 			}

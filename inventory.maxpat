@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"patching_rect" : [ 287.0, 217.0, 95.0, 22.0 ],
+					"text" : "jw.odot.bollinger"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.0, 194.0, 150.0, 20.0 ],
+					"text" : "Analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -235,7 +258,9 @@
 			"obj-12::obj-10" : [ "/duty_cycle", "/duty_cycle", 0 ],
 			"obj-12::obj-38" : [ "live.tab", "live.tab", 0 ],
 			"obj-12::obj-4" : [ "/frequency", "/frequency", 0 ],
-			"obj-1::obj-21" : [ "/delay", "/delay", 0 ],
+			"obj-17::obj-17" : [ "/num_samps", "/num_samps", 0 ],
+			"obj-17::obj-24" : [ "/scale_factor", "/scale_factor", 0 ],
+			"obj-1::obj-21" : [ "/delay", "/ms", 0 ],
 			"obj-1::obj-6" : [ "/feedback", "/feedback", 0 ],
 			"obj-1::obj-8" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-2::obj-14::obj-24" : [ "Input[1]", "/input", 0 ],
@@ -311,6 +336,10 @@
 					"parameter_longname" : "/output[3]"
 				}
 ,
+				"obj-1::obj-21" : 				{
+					"parameter_longname" : "/delay"
+				}
+,
 				"obj-3::obj-9" : 				{
 					"parameter_longname" : "/db[1]"
 				}
@@ -361,6 +390,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "jw.odot.bollinger.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jw.odot.channelstrip.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
 				"patcherrelativepath" : ".",
