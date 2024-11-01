@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 232.0, 279.0, 1113.0, 818.0 ],
+		"rect" : [ 232.0, 265.0, 1113.0, 818.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -5685,7 +5685,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "audio_in_1",
+					"comment" : "audio_in_1 (signal), ODOT Control (FullPacket)",
 					"id" : "obj-532",
 					"index" : 0,
 					"maxclass" : "inlet",
