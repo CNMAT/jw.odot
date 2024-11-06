@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 9.0, -982.0, 1598.0, 939.0 ],
+		"rect" : [ 8.0, -983.0, 1598.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -941,7 +941,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 105.05126953125, 262.0, 22.0 ],
-									"text" : "20. 30 20 1000 30 30 30 1000 40 2000 30 2000"
+									"text" : "20. 30 20 1000 30 30 30 1000 40 2000 40 2000"
 								}
 
 							}
@@ -1055,7 +1055,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 655.5, 216.0, 59.0 ],
-					"text" : "/bollinger/scale_factor : 0.5,\n/bollinger/num_samps : 100,\n/bollinger/rate : 10"
+					"text" : "/bollinger/scale_factor : 0.7,\n/bollinger/num_samps : 21,\n/bollinger/rate : 10"
 				}
 
 			}
@@ -1080,7 +1080,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 510.5, 150.0, 33.0 ],
-					"text" : "/value : 23.328"
+					"text" : "/value : 42.048"
 				}
 
 			}
@@ -1131,7 +1131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 889.0, 526.0, 236.0, 161.0 ],
-					"text" : "/bollinger/out/x : 23.328,\n/bollinger/out/n : 100,\n/bollinger/out/scaleFactor : 0.5,\n/bollinger/out/xAvg : 28.0688,\n/bollinger/out/sigma2 : 123.813,\n/bollinger/out/prevAvg : 28.1162,\n/bollinger/out/sigma : 11.1271,\n/bollinger/out/ubb : 33.6324,\n/bollinger/out/lbb : 22.5052,\n/bollinger/out/highTrigger : 0,\n/bollinger/out/lowTrigger : 0"
+					"text" : "/bollinger/out/x : 55.904,\n/bollinger/out/n : 21,\n/bollinger/out/scaleFactor : 0.7,\n/bollinger/out/xAvg : 42.7609,\n/bollinger/out/sigma2 : 86.7672,\n/bollinger/out/prevAvg : 42.135,\n/bollinger/out/sigma : 9.31489,\n/bollinger/out/ubb : 49.2813,\n/bollinger/out/lbb : 36.2405,\n/bollinger/out/highTrigger : 1,\n/bollinger/out/lowTrigger : 0"
 				}
 
 			}
