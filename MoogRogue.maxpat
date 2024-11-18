@@ -142,7 +142,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 902.5, 107.5, 42.0, 18.0 ],
-					"presentation_linecount" : 2,
 					"text" : "POWER",
 					"textjustification" : 1
 				}
@@ -387,7 +386,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 684.0, 114.0, 55.0, 16.0 ],
+					"patching_rect" : [ 659.0, 115.0, 105.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "CONTOUR", "KEYED", "BYPASS" ],
@@ -551,7 +550,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 546.0, 132.0, 61.0, 18.0 ],
-					"presentation_linecount" : 2,
 					"text" : "WAVEFORM",
 					"textjustification" : 1
 				}
@@ -564,7 +562,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 132.0, 44.0, 18.0 ],
-					"presentation_linecount" : 2,
 					"text" : "OCTAVE",
 					"textjustification" : 1
 				}
@@ -675,7 +672,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.0, 102.0, 78.0, 29.0 ],
-					"presentation_linecount" : 4,
 					"text" : "SYNC\nOSC 2 TO OSC 1",
 					"textjustification" : 1
 				}
@@ -772,7 +768,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 177.0, 56.0, 18.0 ],
-					"presentation_linecount" : 2,
 					"text" : "AUTO TRIG",
 					"textjustification" : 1
 				}

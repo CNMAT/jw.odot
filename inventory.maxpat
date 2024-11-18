@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 287.0, 245.0, 91.0, 22.0 ],
+					"text" : "jw.odot.kmeans"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "comment",
@@ -436,6 +448,13 @@
 			}
 , 			{
 				"name" : "jw.odot.input.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.odot.kmeans.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
