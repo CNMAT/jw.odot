@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 71.0, -971.0, 1147.0, 917.0 ],
+		"rect" : [ 22.0, 100.0, 1147.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 557.0, 119.0, 150.0, 33.0 ],
+					"text" : "Calculation based on ISO 9613-1:1993"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "comment",
@@ -169,7 +181,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 96.0, 482.0, 573.0, 108.0 ],
-					"text" : "/f ??= [50,63],\n/alpha = 8.686*pow(/f,2)*(1.84 * pow(10,-11)*pow(/p_a / /p_r,-1)*pow(/T / /T_0, 0.5)\n+ pow(/T / /T_0, -2.5)\n*(0.01275*exp(-2239.1 / /T)*pow(/f_rO + /f*/f / /f_rO, -1) \n+ 0.1068*exp(-3352.0 / /T)*pow(/f_rN+/f*/f / /f_rN,-1))\n),\n/alpha *= -1000."
+					"text" : "/f ??= [50,63],\n/alpha = 8.686*pow(/f,2)*(1.84 * pow(10,-11)*pow(/p_a / /p_r,-1)*pow(/T / /T_0, 0.5)\n+ pow(/T / /T_0, -2.5)\n*(0.01275*exp(-2239.1 / /T)*pow(/f_rO + /f*/f / /f_rO, -1) \n+ 0.1068*exp(-3352.0 / /T)*pow(/f_rN+/f*/f / /f_rN,-1))\n),\n/alpha *= -1."
 				}
 
 			}
@@ -206,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 321.0, 150.0, 33.0 ],
-					"text" : "/f_rN : 630.493"
+					"text" : "/f_rN : 1409."
 				}
 
 			}
@@ -389,7 +401,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.0, 321.0, 150.0, 33.0 ],
-					"text" : "/f_rO : 80133.4"
+					"text" : "/f_rO : 188123"
 				}
 
 			}
