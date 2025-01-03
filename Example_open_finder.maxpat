@@ -40,24 +40,12 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 45.0, 124.0, 81.0, 22.0 ],
-					"text" : "regexp .+:(.+)"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 202.0, 437.0, 22.0 ]
+					"patching_rect" : [ 45.0, 176.0, 437.0, 22.0 ]
 				}
 
 			}
@@ -68,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 45.0, 174.0, 31.0, 22.0 ],
+					"patching_rect" : [ 45.0, 148.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -80,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 150.0, 197.0, 22.0 ],
+					"patching_rect" : [ 45.0, 124.0, 197.0, 22.0 ],
 					"text" : "sprintf \\;max launchbrowser file://%s"
 				}
 
@@ -92,8 +80,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 45.0, 97.0, 70.0, 22.0 ],
-					"text" : "regexp (.+)/"
+					"patching_rect" : [ 45.0, 97.0, 94.0, 22.0 ],
+					"text" : "regexp .+:(.+)/.+"
 				}
 
 			}
@@ -137,7 +125,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 66.5, 198.5, 472.5, 198.5 ],
+					"midpoints" : [ 66.5, 172.5, 472.5, 172.5 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -165,13 +153,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -186,7 +167,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
