@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 350.0, 603.0, 640.0, 480.0 ],
+		"rect" : [ 349.0, 603.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 45.0, 43.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-14",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 244.0, 92.0, 396.0, 78.0 ],
+					"presentation_linecount" : 6,
+					"text" : "If you want to open a particular folder one level up, append that folder name here. For example, if there were a folder called \"media\" in this directory, and one wanted to launch a finder at that location, this sprintf box should read: \nsprintf ;max launchbrowser file://%s/media"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 176.0, 437.0, 22.0 ]
+					"patching_rect" : [ 45.0, 176.0, 437.0, 35.0 ],
+					"text" : ";\rmax launchbrowser file:///Users/jlw_cnmat/Documents/GitHub/wagne342/jw.odot"
 				}
 
 			}
@@ -80,8 +109,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 45.0, 97.0, 94.0, 22.0 ],
-					"text" : "regexp .+:(.+)/.+"
+					"patching_rect" : [ 45.0, 97.0, 81.0, 22.0 ],
+					"text" : "regexp .+:(.+)"
 				}
 
 			}
@@ -103,26 +132,22 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 25.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 49.0, 167.0, 22.0 ],
-					"text" : "Example_open_finder.maxpat"
+					"patching_rect" : [ 45.0, 19.0, 87.0, 22.0 ],
+					"text" : "loadmess path"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 102.5, 68.5, 54.5, 68.5 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
 					"midpoints" : [ 66.5, 172.5, 472.5, 172.5 ],
@@ -139,13 +164,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -153,7 +171,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
