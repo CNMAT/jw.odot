@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 1000.0, 780.0 ],
+		"rect" : [ 84.0, 100.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -86,7 +86,7 @@
 
 							}
  ],
-						"originid" : "pat-4844"
+						"originid" : "pat-4881"
 					}
 ,
 					"patching_rect" : [ 398.0, 255.0, 90.0, 22.0 ],
@@ -108,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 498.0, 150.0, 46.0 ],
-					"text" : "/size : 512,\n/rate : 5000"
+					"text" : "/rate : 2000,\n/size : 512"
 				}
 
 			}
@@ -362,7 +362,7 @@
 
 			}
  ],
-		"originid" : "pat-4842",
+		"originid" : "pat-4879",
 		"dependency_cache" : [ 			{
 				"name" : "jw.odot.list.easing.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
