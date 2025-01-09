@@ -179,8 +179,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 123.0, 206.0, 209.0, 57.0 ],
-					"text" : "/temp = /list1,\n/quotient = /list1 * /list2,\n/remainder = /temp - /quotient"
+					"patching_rect" : [ 123.0, 206.0, 216.0, 57.0 ],
+					"text" : "\n/quotient = /list1 * /list2,\n/remainder = /list1 - /quotient"
 				}
 
 			}
@@ -366,7 +366,7 @@
 
 			}
  ],
-		"originid" : "pat-4990"
+		"originid" : "pat-2084"
 	}
 
 }
