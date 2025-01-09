@@ -165,7 +165,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 50.0, 269.0, 852.0, 95.0 ],
-					"text" : "/f ??=27.5, /sr ??= 48000, /alpha ??= 0, /beta ??=0,\n/bin_width = /sr / /size,\n/k = /sr / /f,\n/out = aseq(0,/size / 2)*twopi()/ /size,\n/out = sqrt((1.0+pow(/beta, 2.0) ) + 2.0*/beta*(cos(/out * /k))) / sqrt((1.0+pow(/alpha, 2.0) ) - 2.0*/alpha*(cos(/out * /k)))\n "
+					"text" : "/f ??=27.5, /sr ??= 48000, /alpha ??= 0, /beta ??=0,\n/bin_width = 0.5 * /sr / /size,\n/k = /sr / /f,\n/out = aseq(0,/size - 1)*pi()/ /size,\n/out = sqrt((1.0+pow(/beta, 2.0) ) + 2.0*/beta*(cos(/out * /k))) / sqrt((1.0+pow(/alpha, 2.0) ) - 2.0*/alpha*(cos(/out * /k)))\n "
 				}
 
 			}

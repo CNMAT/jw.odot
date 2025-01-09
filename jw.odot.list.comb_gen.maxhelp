@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 118.0, 1000.0, 780.0 ],
+		"rect" : [ 59.0, 100.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -175,9 +175,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.0, 211.0, 150.0, 23.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 97, 108, 112, 104, 97, 0, 0, 44, 100, 0, 0, 63, -29, 51, 51, 51, 51, 51, 51 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 97, 108, 112, 104, 97, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 40,
-					"text" : "/alpha : 0.6"
+					"text" : "/alpha : 1."
 				}
 
 			}
@@ -227,9 +227,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.0, 186.0, 150.0, 23.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 102, 0, 0, 44, 100, 0, 0, 64, -104, 8, 0, 0, 0, 0, 0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 102, 0, 0, 44, 100, 0, 0, 64, -127, 76, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 36,
-					"text" : "/f : 1538."
+					"text" : "/f : 553.5"
 				}
 
 			}
@@ -252,7 +252,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 18.0, 697.0, 87.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jw.odot.list.comb_gen"
 				}
 
@@ -343,7 +342,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 418.0, 309.0, 150.0, 85.0 ],
-					"text" : "/f : 1538.,\n/beta : 0.99,\n/alpha : 0.6,\n/sr : 44100,\n/size : 1024"
+					"text" : "/f : 53.,\n/alpha : 0.3,\n/beta : 0.,\n/sr : 44100,\n/size : 512"
 				}
 
 			}
@@ -357,7 +356,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.0, 309.0, 398.0, 108.0 ],
 					"setminmax" : [ 0.0, 10.0 ],
-					"size" : 513
+					"size" : 512
 				}
 
 			}
@@ -368,8 +367,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 18.0, 271.0, 153.0, 22.0 ],
-					"text" : "jw.odot.list.comb_gen 1024"
+					"patching_rect" : [ 18.0, 271.0, 147.0, 22.0 ],
+					"text" : "jw.odot.list.comb_gen 512"
 				}
 
 			}
@@ -384,7 +383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 161.5, 303.0, 427.5, 303.0 ],
+					"midpoints" : [ 155.5, 303.0, 427.5, 303.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -557,7 +556,7 @@
 
 			}
  ],
-		"originid" : "pat-96",
+		"originid" : "pat-184",
 		"dependency_cache" : [ 			{
 				"name" : "jw.odot.list.comb_gen.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
