@@ -10,9 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -37.0, -993.0, 1820.0, 959.0 ],
+		"rect" : [ -37.0, -993.0, 1298.0, 959.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 588.0, 301.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-30",
@@ -72,8 +85,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 287.0, 381.0, 33.0 ],
-					"text" : "/t1 : [1.5, 2., 2.5, 3., 3.5, 4., 4.5, 5., 5.5, 6., 6.5]"
+					"patching_rect" : [ 100.0, 333.0, 381.0, 33.0 ],
+					"text" : "/t1 : [1.33333, 2., 2.66667, 3.33333, 4.]"
 				}
 
 			}
@@ -95,13 +108,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 100.0, 263.0, 67.0, 22.0 ],
+					"patching_rect" : [ 100.0, 309.0, 67.0, 22.0 ],
 					"text" : "o.select /t1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -236,14 +250,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-8",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 100.0, 191.0, 540.0, 70.0 ],
-					"presentation_linecount" : 5,
-					"text" : "/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(1,/n)+/phi,\n/t1 = -2.0*(/phi0 - /phi)*(/omega - /omega0) / (pow(/omega,2) - pow(/omega0,2))"
+					"patching_rect" : [ 100.0, 214.0, 540.0, 83.0 ],
+					"text" : "/omega0 ??= 1.0, /omega ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(1,/n)+/phi,\n/t1 = -2.0*(/phi0 - /phi)*(/omega - /omega0) / (pow(/omega,2) - pow(/omega0,2))"
 				}
 
 			}
@@ -345,7 +358,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -441,7 +463,7 @@
 
 			}
  ],
-		"originid" : "pat-182",
+		"originid" : "pat-188",
 		"dependency_cache" : [ 			{
 				"name" : "o.display.mxo",
 				"type" : "iLaX"
