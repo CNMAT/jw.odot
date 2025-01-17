@@ -30,7 +30,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 210.0, 150.0, 234.0 ],
+					"patching_rect" : [ 881.0, 199.0, 151.0, 234.0 ],
 					"text" : "Converts fundamental to normalized angular frequency (0-2pi)\n\nConverts bin freqs to normalized angular frequency (0-2pi)\n\nTakes dot product of fundamental with each bin and outputs magnitude.\n\nRaises this value to some power (1 / width)\n\nOne-hot encodes values greater than 0.5"
 				}
 
@@ -43,7 +43,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 382.0, 30.0, 30.0 ]
+					"patching_rect" : [ 361.0, 413.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 361.0, 351.0, 69.0, 22.0 ],
+					"patching_rect" : [ 361.0, 382.0, 69.0, 22.0 ],
 					"text" : "o.route /out"
 				}
 
@@ -67,7 +67,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.0, 382.0, 30.0, 30.0 ]
+					"patching_rect" : [ 244.0, 413.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 244.0, 39.0, 30.0, 30.0 ]
 				}
 
@@ -212,7 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 351.0, 119.0, 22.0 ],
+					"patching_rect" : [ 244.0, 382.0, 119.0, 22.0 ],
 					"text" : "jw.odot.rename #2"
 				}
 
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 244.0, 323.0, 73.0, 22.0 ],
+					"patching_rect" : [ 244.0, 354.0, 73.0, 22.0 ],
 					"text" : "o.select /out"
 				}
 
@@ -233,13 +233,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-27",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 244.0, 210.0, 534.0, 108.0 ],
-					"text" : "/SR ??= 48000., /WS ??= 1024., /fundamental ??=27.5,\n\n/f0 = twopi() * mod(log(/fundamental * /SR / /WS) / log(2), 1.0),\n/bin_freqs = twopi() * mod(log(aseq(0, /WS / 2 -1) * /SR / /WS) / log(2), 1.0),\n/out = cos(/f0)*cos(/bin_freqs) + sin(/f0)*sin(/bin_freqs),\n/out = 1.0*(pow(clip(/out,0,1.0), 1 / /width) > 0.5)\n"
+					"patching_rect" : [ 244.0, 210.0, 699.0, 108.0 ],
+					"text" : "/WS ??= 1024, /SR ??= 48000, /width ??= 1.0,\n/bin_width =  float32(/SR) / /WS,\n/m = ftom(/fundamental),\n/omega0 = twopi()*mod(/m, 12.0) / 12.0,\n/bin_omega = twopi()*mod(ftom(aseq(0.0, /WS / 2.0 - 1.0) * /bin_width) ,12.0) / 12.0,\n/out = 1.0*(pow(clip(sin(/omega0)*sin(/bin_omega) + cos(/omega0)*cos(/bin_omega),0.0,1.0), /width) > 0.5)"
 				}
 
 			}
@@ -325,7 +325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 253.5, 348.0, 370.5, 348.0 ],
+					"midpoints" : [ 253.5, 379.0, 370.5, 379.0 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -386,7 +386,7 @@
 
 			}
  ],
-		"originid" : "pat-2428"
+		"originid" : "pat-3023"
 	}
 
 }
