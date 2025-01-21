@@ -278,7 +278,7 @@
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "number",
-					"maximum" : 12,
+					"maximum" : 24,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -405,14 +405,14 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-83",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 1180.0, 381.0, 46.0 ],
-					"presentation_linecount" : 2,
-					"text" : "/omega : [1., 1.8, 2.6, 3.4, 4.2, 5., 5.8, 6.6, 7.4, 8.2, 9., 9.8, 10.6]"
+					"patching_rect" : [ 119.0, 1180.0, 381.0, 59.0 ],
+					"presentation_linecount" : 3,
+					"text" : "/omega : [-0.4, 0., 0.4, 0.8, 1.2, 1.6, 2., 2.4, 2.8, 3.2, 3.6, 4., 4.4, 4.8, 5.2, 5.6, 6., 6.4, 6.8, 7.2, 7.6, 8., 8.4, 8.8, 9.2]"
 				}
 
 			}
@@ -541,7 +541,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"freqmax" : 15.0,
-					"functions" : [ 2, 0.0, 5.0, 5.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 5.0, 1.8, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
+					"functions" : [ 2, 0.0, 4.0, 4.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 5.0, 4.4, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
 					"id" : "obj-93",
 					"major_grid_line_color" : [ 0.65098, 0.666667, 0.662745, 0.68 ],
 					"maxclass" : "timewarp~",
@@ -576,14 +576,14 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-95",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 102.0, 1062.0, 540.0, 83.0 ],
-					"presentation_linecount" : 5,
-					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n/omega = -(4*(/phi0 - /phi)/(/t1 -/t0) - /omega0)"
+					"patching_rect" : [ 102.0, 1037.0, 540.0, 95.0 ],
+					"presentation_linecount" : 6,
+					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n/omega = -(4*(/phi0 - /phi)/(/t1 -/t0) / 2.0 - /omega0)\n##/omega = (/phi - /phi0) / (/t1 - /t0)"
 				}
 
 			}
