@@ -541,7 +541,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"freqmax" : 15.0,
-					"functions" : [ 2, 0.0, 4.0, 4.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 5.0, 4.4, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
+					"functions" : [ 2, 0.0, 4.0, 4.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 5.0, 3.2, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
 					"id" : "obj-93",
 					"major_grid_line_color" : [ 0.65098, 0.666667, 0.662745, 0.68 ],
 					"maxclass" : "timewarp~",
@@ -583,7 +583,7 @@
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 102.0, 1037.0, 540.0, 95.0 ],
 					"presentation_linecount" : 6,
-					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n/omega = -(4*(/phi0 - /phi)/(/t1 -/t0) / 2.0 - /omega0)\n##/omega = (/phi - /phi0) / (/t1 - /t0)"
+					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n/omega = -(2.0*(/phi0 - /phi)/(/t1 -/t0) - /omega0)\n##/omega = (/phi - /phi0) / (/t1 - /t0)"
 				}
 
 			}
