@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -37.0, -993.0, 1829.0, 959.0 ],
+		"rect" : [ -37.0, -993.0, 1307.0, 959.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -21,7 +21,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.0, 780.0, 540.0, 24.0 ],
-					"presentation_linecount" : 5,
 					"text" : "If you know the initial and target times and phases and the initial tempo, use this calculator"
 				}
 
@@ -244,8 +243,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 1417.0, 243.0, 22.0 ],
-					"text" : "select 3 2, clear, set 3 2 $1, select 3 2, bang"
+					"patching_rect" : [ 102.0, 1417.0, 483.0, 22.0 ],
+					"text" : "select 3 2, clear, set 3 2 $1, select 3 2, bang, select 4 2, clear, set 4 2 $1, select 4 2, bang"
 				}
 
 			}
@@ -278,7 +277,7 @@
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "number",
-					"maximum" : 24,
+					"maximum" : 10,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -405,14 +404,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-83",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 1180.0, 381.0, 59.0 ],
-					"presentation_linecount" : 3,
-					"text" : "/omega : [-0.4, 0., 0.4, 0.8, 1.2, 1.6, 2., 2.4, 2.8, 3.2, 3.6, 4., 4.4, 4.8, 5.2, 5.6, 6., 6.4, 6.8, 7.2, 7.6, 8., 8.4, 8.8, 9.2]"
+					"patching_rect" : [ 119.0, 1180.0, 381.0, 46.0 ],
+					"text" : "/omega : [-1.32, -0.653333, 0.0133333, 0.68, 1.34667, 2.01333, 2.68, 3.34667, 4.01333, 4.68, 5.34667]"
 				}
 
 			}
@@ -541,7 +539,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"freqmax" : 15.0,
-					"functions" : [ 2, 0.0, 4.0, 4.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 5.0, 3.2, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
+					"functions" : [ 2, 0.0, 1.0, 1.0, 0.25, 0.25, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 3.0, 4.68, 4.68, 0.77, 0.77, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
 					"id" : "obj-93",
 					"major_grid_line_color" : [ 0.65098, 0.666667, 0.662745, 0.68 ],
 					"maxclass" : "timewarp~",
@@ -576,14 +574,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-95",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 102.0, 1037.0, 540.0, 95.0 ],
-					"presentation_linecount" : 6,
-					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n/omega = -(2.0*(/phi0 - /phi)/(/t1 -/t0) - /omega0)\n##/omega = (/phi - /phi0) / (/t1 - /t0)"
+					"patching_rect" : [ 102.0, 1037.0, 540.0, 108.0 ],
+					"text" : "/t0 ??= 1.0, /t1 ??= 2.0, /phi0 ??= 0.0, /phi ??= 0, /n ??=5, /omega0 ??= 0.0,\n/phi0 %= 1.0,\n/phi += 1.0, #ensure phi is greater than phi_0\n/phi = aseq(-/n / 2,/n / 2)+/phi,\n##/omega = -(2.0*(/phi0 - /phi)/(/t1 -/t0) - /omega0)\n##/omega = (/phi - /phi0) / (/t1 - /t0)\n/omega = /omega0 + 2.0*(/phi - /phi0) / (/t1 - /t0)"
 				}
 
 			}
@@ -770,7 +767,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 870.0, 154.0, 303.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "set 3 2 $1, select 3 2, bang, set 4 2 $1, select 4 2, bang"
 				}
 
@@ -784,7 +780,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 870.0, 121.0, 303.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "set 3 1 $1, select 3 1, bang, set 4 1 $1, select 4 1, bang"
 				}
 
@@ -830,7 +825,7 @@
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "number",
-					"maximum" : 20,
+					"maximum" : 5,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -957,13 +952,12 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-26",
-					"linecount" : 3,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 396.0, 381.0, 59.0 ],
-					"text" : "/t1 : [1.05, 1.55, 2.05, 2.55, 3.05, 3.55, 4.05, 4.55, 5.05, 5.55, 6.05, 6.55, 7.05, 7.55, 8.05, 8.55, 9.05, 9.55, 10.05, 10.55]"
+					"patching_rect" : [ 121.0, 396.0, 381.0, 33.0 ],
+					"text" : "/t1 : [1.33333, 2., 2.66667, 3.33333, 4.]"
 				}
 
 			}
@@ -1092,7 +1086,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"freqmax" : 15.0,
-					"functions" : [ 2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 3.55, 4.0, 4.0, 0.1, 0.1, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
+					"functions" : [ 2, 0.0, 1.0, 1.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0, 1.333333333333333, 2.0, 2.0, 0.0, 0.0, 0.1, 0.9, 1.0, 1.0, 2.0, 2.0, 0 ],
 					"id" : "obj-13",
 					"major_grid_line_color" : [ 0.65098, 0.666667, 0.662745, 0.68 ],
 					"maxclass" : "timewarp~",
@@ -1902,7 +1896,7 @@
 
 			}
  ],
-		"originid" : "pat-192",
+		"originid" : "pat-314",
 		"dependency_cache" : [ 			{
 				"name" : "o.display.mxo",
 				"type" : "iLaX"
