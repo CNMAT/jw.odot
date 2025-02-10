@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 252.0, 683.0, 121.0, 22.0 ],
+					"text" : "routepass FullPacket"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-117",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -102,13 +114,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-107",
-					"linecount" : 6,
+					"linecount" : 4,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.0, 748.0, 467.0, 97.0 ],
-					"text" : "/source/1/direct/params : [-18.8137, 0., 0., -0.733334, 177., 5657.],\n/source/1/early/params : [-27.9875, 0., 0., -0.733334, 250., 8000.],\n/source/1/cluster/params : [-23.7691, 0., 0., 0., 250., 8000.],\n/source/1/reverb/gain : -17.6107,\n/source/1/doppler/delay : 7.1781,\n/source/1/air/distance : 2.46353"
+					"patching_rect" : [ 537.0, 748.0, 467.0, 72.0 ],
+					"text" : "/source/1/direct/params : [-10.703, 0., 0., 0., 177., 5657.],\n/source/1/early/params : [-18.255, 0., 0., 0., 250., 8000.],\n/source/1/cluster/params : [-15.6563, 0., 0., 0., 250., 8000.],\n/source/1/reverb/gain : -12.4846"
 				}
 
 			}
@@ -132,7 +144,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 537.0, 614.0, 164.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Double Click to Open GUI"
 				}
 
@@ -172,7 +183,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 955.0, 290.0, 226.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Arbitrarily complex parametric trajectory"
 				}
 
@@ -185,7 +195,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1427.0, 355.0, 111.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Distanc Modulation\nAmplitude"
 				}
 
@@ -198,7 +207,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1310.0, 355.0, 111.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Distanc Modulation\nFrequency"
 				}
 
@@ -501,7 +509,7 @@
 
 							}
  ],
-						"originid" : "pat-8688"
+						"originid" : "pat-14032"
 					}
 ,
 					"patching_rect" : [ 73.0, 524.0, 137.0, 22.0 ],
@@ -653,6 +661,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"midpoints" : [ 261.5, 726.5, 546.5, 726.5 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-17", 0 ]
@@ -823,8 +839,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"midpoints" : [ 153.5, 742.37109375, 546.5, 742.37109375 ],
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 153.5, 660.0, 261.5, 660.0 ],
 					"order" : 0,
 					"source" : [ "obj-95", 0 ]
 				}
@@ -848,7 +864,7 @@
 
 			}
  ],
-		"originid" : "pat-8542",
+		"originid" : "pat-14030",
 		"parameters" : 		{
 			"obj-17::obj-1" : [ "live.menu", "live.menu", 0 ],
 			"obj-17::obj-12::obj-4" : [ "live.numbox", "live.numbox", 0 ],
