@@ -15,6 +15,58 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 571.0, 392.0, 166.0, 22.0 ],
+					"text" : "_parameter_shortname ghost"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 557.0, 442.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "ghost",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 69.333333333333343, 148.0, 109.0, 22.0 ],
+					"text" : "o.select #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-43",
 					"maxclass" : "comment",
@@ -23,7 +75,7 @@
 					"patching_rect" : [ 510.0, 249.0, 163.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 2.0, 163.0, 20.0 ],
-					"text" : "/hello",
+					"text" : "#1",
 					"textjustification" : 1
 				}
 
@@ -47,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.0, 161.0, 77.0, 22.0 ],
+					"patching_rect" : [ 514.0, 161.0, 119.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -74,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 220.0, 388.0, 79.0, 22.0 ],
+					"patching_rect" : [ 220.0, 388.0, 121.0, 22.0 ],
 					"text" : "o.prepend #1"
 				}
 
@@ -122,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 69.333333333333343, 169.0, 63.0, 22.0 ],
+					"patching_rect" : [ 69.333333333333343, 178.0, 105.0, 22.0 ],
 					"text" : "o.route #1"
 				}
 
@@ -232,7 +284,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -241,6 +293,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-29", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -307,10 +366,18 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
-		"originid" : "pat-997",
+		"originid" : "pat-9126",
 		"parameters" : 		{
 			"obj-28" : [ "live.gain~", "/db", 0 ],
+			"obj-6" : [ "live.gain~[1]", "ghost", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -337,6 +404,10 @@
 			}
 , 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
 				"type" : "iLaX"
 			}
  ],

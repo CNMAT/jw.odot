@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 502.0, -835.0, 741.0, 480.0 ],
+		"rect" : [ 134.0, 172.0, 741.0, 480.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -139,12 +139,15 @@
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-58",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.0, 421.0, 100.0, 20.0 ],
+					"patching_rect" : [ 745.0, 421.0, 100.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 3.0, 75.0, 20.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 118.0, 3.0, 75.0, 74.0 ],
+					"text" : "Delay Cannot Be Rendered; Check sr & sigvs",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -329,7 +332,7 @@
 				"box" : 				{
 					"comment" : "ODOT State (FullPacket)",
 					"id" : "obj-50",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -430,7 +433,7 @@
 				"box" : 				{
 					"comment" : "Output (signal)",
 					"id" : "obj-42",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -530,11 +533,11 @@
 				"box" : 				{
 					"comment" : "Input (signal), ODOT Control Messages (FullPacket)",
 					"id" : "obj-25",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 10.0, 30.0, 30.0 ]
 				}
 
@@ -860,7 +863,7 @@
 
 							}
  ],
-						"originid" : "pat-1847"
+						"originid" : "pat-15834"
 					}
 ,
 					"patching_rect" : [ 97.0, 361.0, 88.0, 22.0 ],
@@ -887,7 +890,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "/ms",
-							"parameter_mmax" : 5000.0,
+							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "/ms",
@@ -1420,7 +1423,49 @@
 
 			}
  ],
-		"originid" : "pat-1845",
+		"originid" : "pat-15832",
+		"parameters" : 		{
+			"obj-21" : [ "/ms", "/ms", 0 ],
+			"obj-6" : [ "/feedback", "/feedback", 0 ],
+			"obj-8" : [ "live.numbox", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 	}
 

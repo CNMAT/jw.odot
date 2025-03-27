@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 216.0, -929.0, 1000.0, 780.0 ],
+		"rect" : [ 134.0, 172.0, 1000.0, 780.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -360,13 +360,13 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "/interval",
-							"parameter_mmax" : 24.0,
-							"parameter_mmin" : -24.0,
+							"parameter_mmax" : 32.0,
+							"parameter_mmin" : -32.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "/interval",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
+							"parameter_unitstyle" : 7
 						}
 
 					}
@@ -758,7 +758,7 @@
 
 			}
  ],
-		"originid" : "pat-219",
+		"originid" : "pat-15714",
 		"parameters" : 		{
 			"obj-10" : [ "/interval", "/interval", 0 ],
 			"obj-33" : [ "/wet_dry", "/wet_dry", 0 ],
