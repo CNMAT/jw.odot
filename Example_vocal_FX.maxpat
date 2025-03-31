@@ -10,9 +10,20 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 135.0, 1650.0, 948.0 ],
+		"rect" : [ 34.0, 113.0, 1532.0, 948.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 288.000004291534424, 212.000003159046173, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "comment",
@@ -676,16 +687,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-53",
-					"linecount" : 42,
+					"linecount" : 43,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 558.0 ],
+					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 571.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 42,
-					"presentation_rect" : [ 1041.0, 699.0, 282.0, 558.0 ],
-					"text" : "/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.417323,\n/pitch_shift/interval : 7.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 2681.5,\n/delay/feedback : 0.,\n/delay/slew : 100.,\n/channelstrip/preamp/db : -8.28346,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/thresh : -80.,\n/direct_level/db : -70.,\n/ring_mod/db : -70."
+					"presentation_linecount" : 43,
+					"presentation_rect" : [ 1041.0, 699.0, 282.0, 571.0 ],
+					"text" : "/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.417323,\n/pitch_shift/interval : 7.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 2681.5,\n/delay/feedback : 0.,\n/delay/slew : 100.,\n/channelstrip/preamp/db : -8.28346,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/thresh : -80.,\n/direct_level/db : -70.,\n/ring_mod/db : -70.,\n/MyModule/MyParameter : 10."
 				}
 
 			}
@@ -719,7 +730,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 694.0, 197.0, 1000.0, 780.0 ],
+						"rect" : [ 566.0, 280.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
