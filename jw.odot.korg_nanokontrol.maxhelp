@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 130.0, 1314.0, 780.0 ],
+		"rect" : [ 34.0, 100.0, 1314.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -19,8 +19,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 18.0, 639.0, 93.0, 22.0 ],
-					"text" : "o.select /knob/1"
+					"patching_rect" : [ 18.0, 639.0, 185.0, 22.0 ],
+					"text" : "o.select /korg/nanokontrol/knob/1"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 595.0, 244.0, 33.0 ],
-					"text" : "/track/back : 0"
+					"text" : "/korg/nanokontrol/knob/1 : 0."
 				}
 
 			}
@@ -148,7 +148,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ "to Max 1", ",", "to Max 2", ",", "nanoKONTROL2 SLIDER/KNOB" ],
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -258,7 +258,7 @@
 
 			}
  ],
-		"originid" : "pat-654",
+		"originid" : "pat-19161",
 		"parameters" : 		{
 			"obj-1::obj-13" : [ "/knob/1", "/knob/1", 0 ],
 			"obj-1::obj-14" : [ "/knob/2", "/knob/2", 0 ],
