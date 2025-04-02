@@ -4,41 +4,29 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 22.0, 100.0, 1147.0, 917.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 34.0, 100.0, 1147.0, 917.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-4",
+					"linecount" : 9,
+					"maxclass" : "o.display",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 810.0, 657.0, 337.0, 136.0 ],
+					"text" : "/p_a : 101327.,\n/p_r : 101328.,\n/h : 2.63951,\n/T : 88.09,\n/T_0 : 273.15,\n/f_rO : 93604.7,\n/f_rN : 1317.26,\n/f : 6399.,\n/alpha : -0.00371646"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"linecount" : 2,
@@ -81,7 +69,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 96.0, 647.0, 626.0, 136.0 ],
-					"setminmax" : [ -100.0, 0.0 ],
+					"setminmax" : [ -10.0, 10.0 ],
 					"size" : 24
 				}
 
@@ -218,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 321.0, 150.0, 33.0 ],
-					"text" : "/f_rN : 1409."
+					"text" : "/f_rN : 1317.26"
 				}
 
 			}
@@ -231,7 +219,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 519.0, 260.0, 613.0, 31.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/f_rN = (/p_a / /p_r)*pow(/T / /T_0,-0.5)*(9+280* /h*exp(-4.170*(pow(/T / /T_0,-1 / 3)-1)))"
 				}
 
@@ -376,7 +363,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.0, 93.0, 221.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Molar Concentration of Water Vapor (%)"
 				}
 
@@ -401,7 +387,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.0, 321.0, 150.0, 33.0 ],
-					"text" : "/f_rO : 188123"
+					"text" : "/f_rO : 93604.7"
 				}
 
 			}
@@ -451,7 +437,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.0, 64.0, 205.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Ref. Atmospheric Pressure (Pascals)"
 				}
 
@@ -732,7 +717,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
+					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -808,36 +802,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-25686"
 	}
 
 }

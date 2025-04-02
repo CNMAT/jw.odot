@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 669.0, 320.0 ],
+		"rect" : [ 84.0, 100.0, 669.0, 320.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -20,7 +20,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.0, 163.0, 213.0, 23.0 ],
+					"patching_rect" : [ 417.0, 163.0, 213.0, 23.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 104, 117, 108, 116, 122, 0, 44, 115, 0, 0, 77, 101, 116, 32, 76, 105, 102, 101, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 44,
 					"text" : "/shultz : \"Met Life\""
@@ -35,11 +35,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 163.0, 213.0, 23.0 ],
-					"presentation_linecount" : 2,
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 115, 104, 111, 112, 0, 0, 0, 44, 115, 0, 0, 73, 99, 101, 32, 67, 114, 101, 97, 109, 32, 38, 32, 67, 111, 111, 107, 105, 101, 115, 0 ],
+					"patching_rect" : [ 196.0, 163.0, 219.0, 23.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 108, 105, 110, 117, 115, 0, 0, 44, 115, 0, 0, 73, 99, 101, 32, 67, 114, 101, 97, 109, 32, 38, 32, 67, 111, 111, 107, 105, 101, 115, 0 ],
 					"saved_bundle_length" : 52,
-					"text" : "/shop : \"Ice Cream & Cookies\""
+					"text" : "/linus : \"Ice Cream & Cookies\""
 				}
 
 			}
@@ -50,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 122.0, 628.0, 20.0 ],
-					"text" : "This simple abstraction renames an incoming odot message to a value given as an argument."
+					"text" : "This simple abstraction renames the address of an incoming odot message to a value given as an argument."
 				}
 
 			}
@@ -81,13 +80,12 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 226.0, 176.0, 46.0 ],
-					"text" : "/snoopy : \"Ice Cream & Cookies\""
+					"patching_rect" : [ 7.0, 226.0, 176.0, 33.0 ],
+					"text" : "/snoopy : \"Charlie Brown\""
 				}
 
 			}
@@ -144,13 +142,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 420.5, 190.5, 16.5, 190.5 ],
+					"midpoints" : [ 426.5, 190.5, 16.5, 190.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-4939",
+		"originid" : "pat-25832",
 		"dependency_cache" : [ 			{
 				"name" : "jw.odot.rename.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
