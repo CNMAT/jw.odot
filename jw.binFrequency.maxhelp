@@ -10,9 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 196.0, 112.0, 1000.0, 780.0 ],
+		"rect" : [ 100.0, 100.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 98.0, 204.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
@@ -22,7 +35,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.0, 313.0, 150.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Bin Offset for displaying portion of FFT"
 				}
 
@@ -46,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 159.0, 761.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Given an FFT size and bin number, this abstraction calculated the bin's center frequency based on current sampling rate.\nArguments: FFT Size (must be power of 2)"
 				}
 
@@ -166,7 +177,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 327.0, 795.0, 150.0, 33.0 ],
-					"text" : "/Fc : 3140.62"
+					"text" : "/Fc : 304.688"
 				}
 
 			}
@@ -249,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 773.0, 318.0, 20.0 ],
-					"text" : "Freq.=3140.62; MIDI=103.026 (G7 + 2 cents)"
+					"text" : "Freq.=304.688; MIDI=62.6379 (D#4 - 36 cents)"
 				}
 
 			}
@@ -274,7 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 544.0, 516.0, 150.0, 33.0 ],
-					"text" : "/Fc : 6281.25"
+					"text" : "/Fc : 152.344"
 				}
 
 			}
@@ -548,7 +559,7 @@
 
 							}
  ],
-						"originid" : "pat-248"
+						"originid" : "pat-563"
 					}
 ,
 					"patching_rect" : [ 48.0, 232.0, 99.0, 22.0 ],
@@ -679,6 +690,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-21", 0 ]
@@ -756,7 +775,7 @@
 
 			}
  ],
-		"originid" : "pat-244",
+		"originid" : "pat-547",
 		"dependency_cache" : [ 			{
 				"name" : "jw.binFrequency.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
