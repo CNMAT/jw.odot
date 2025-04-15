@@ -356,7 +356,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Multislider Value of One Slider",
 					"id" : "obj-27",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -368,7 +368,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Multislider Value of All Sliders",
 					"id" : "obj-26",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1022,7 +1022,7 @@
 
 			}
  ],
-		"originid" : "pat-378",
+		"originid" : "pat-788",
 		"dependency_cache" : [ 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",

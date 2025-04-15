@@ -14,6 +14,30 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 786.0, 99.0, 95.0, 22.0 ],
+					"text" : "jw.binFrequency"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 277.0, 312.0, 77.0, 22.0 ],
+					"text" : "jw.multislider"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -411,7 +435,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-25548",
+		"originid" : "pat-806",
 		"parameters" : 		{
 			"obj-10::obj-16" : [ "/ratio", "/ratio", 0 ],
 			"obj-10::obj-24" : [ "/mask", "/mask", 0 ],
@@ -628,6 +652,20 @@
 		"dependency_cache" : [ 			{
 				"name" : "gizmo_loadme.maxpat",
 				"bootpath" : "C74:/help/msp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.binFrequency.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jw.multislider.maxpat",
+				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
