@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 194.0, 1000.0, 780.0 ],
+		"rect" : [ 100.0, 100.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 441.0, 642.0, 90.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Scaled Y Cursor Value"
 				}
 
@@ -143,7 +142,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 230.0, 328.0, 41.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "x Max"
 				}
 
@@ -174,13 +172,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 693.0, 143.0, 35.0 ],
-					"text" : "0. 1. 0. -0.29 -0.16 0.67 0.9"
+					"patching_rect" : [ 30.0, 693.0, 143.0, 22.0 ],
+					"text" : "0. 1. -0.1 0.3 0.4 0.7 0.9"
 				}
 
 			}
@@ -289,12 +286,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 129.0, 761.0, 60.0 ],
-					"text" : "jw.multislider wraps the multislider object with an interface that reports mouseover position\nInstantiated with arguments {xSize, ySize, xMin, xMax, yMin, yMax}\nOutputs normal multislider outputs as well as scaled mouse position.\nBest used as a bPatcher."
+					"patching_rect" : [ 18.0, 129.0, 761.0, 87.0 ],
+					"text" : "jw.multislider wraps the multislider object with an interface that reports mouseover position\nInstantiated with arguments {xSize, ySize, xMin, xMax, yMin, yMax}\nMultislider will be of size {xSize, ySize} in the patcher coordinates.\nOutputs normal multislider outputs as well as scaled mouse position.\nBest used as a bPatcher.\n"
 				}
 
 			}
@@ -468,7 +465,7 @@
 
 			}
  ],
-		"originid" : "pat-566",
+		"originid" : "pat-1170",
 		"dependency_cache" : [ 			{
 				"name" : "jw.multislider.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
