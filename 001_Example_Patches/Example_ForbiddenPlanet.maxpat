@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1373.0, 304.0, 124.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Choose some freqs."
 				}
 
@@ -301,7 +300,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 941.5, 227.0, 29.5, 22.0 ],
-					"text" : "512"
+					"text" : "511"
 				}
 
 			}
@@ -520,7 +519,7 @@
 
 			}
  ],
-		"originid" : "pat-1068",
+		"originid" : "pat-3695",
 		"parameters" : 		{
 			"obj-17::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-17::obj-35" : [ "[5]", "Level", 0 ],
@@ -552,21 +551,21 @@
 , 			{
 				"name" : "jw.binFrequency.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.multislider.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.fp_fft.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
