@@ -24,11 +24,11 @@ Label inlets/outlets: no mysteries allowed.
 Lastly, the module should be saved with the naming convention jw.odot.{name of module} and a .maxhelp file should be created with the same naming convention and saved in the same directory. That helpfile should detail all functions of the module.
 
 Each module is, thus, divided into the following sections:
-• INPUT & DELEGATION
-• ODOT ROUTING, INITIALIZATION & LINE PROCESSING
-• GUI
-• PROCESS
-• STATE TRACKING & REPORTING
-• OUTPUT
+* INPUT & DELEGATION
+* ODOT ROUTING, INITIALIZATION & LINE PROCESSING
+* GUI
+* PROCESS
+* STATE TRACKING & REPORTING
+* OUTPUT
 
 Adhering to these criteria, we have a suite of interoperable abstractions that can be fully captured in their state via a master ODOT bundle for the patch. This makes these abstractions very useful for use with preset systems and in networked performance settings.
