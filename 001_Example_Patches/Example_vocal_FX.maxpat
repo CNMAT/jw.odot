@@ -14,12 +14,12 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-81",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.000004291534424, 212.000003159046173, 100.0, 22.0 ]
+					"numoutlets" : 0,
+					"patching_rect" : [ 1180.0, 596.000017762184143, 49.0, 22.0 ],
+					"text" : "s report"
 				}
 
 			}
@@ -163,7 +163,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1179.0, 719.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1179.0, 713.0, 49.0, 22.0 ],
 					"text" : "s report"
 				}
 
@@ -248,19 +248,16 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
-									"background_color" : [ 0.796, 0.796, 0.796, 1.0 ],
 									"fontface" : 0,
 									"id" : "obj-8",
-									"ignoreclick" : 1,
-									"linecount" : 127,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 365.0, 1637.0 ],
-									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 101, 115, 101, 116, 73, 68, 0, 0, 0, 44, 115, 0, 0, 104, 101, 108, 108, 111, 0, 0, 0, 0, 0, 4, 96, 47, 109, 121, 77, 111, 100, 117, 108, 101, 47, 49, 0, 44, 46, 0, 0, 0, 0, 4, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 105, 0, 64, 88, -128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 114, 121, 119, 101, 116, 0, 44, 100, 105, 0, 63, -17, -82, 20, 122, -31, 71, -82, 0, 0, 3, -24, 0, 0, 0, -100, 47, 102, 114, 101, 113, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, -116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 47, 118, 97, 108, 0, 0, 0, 0, 44, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 64, -53, 0, -24, -65, -1, -1, -6, 64, -78, 4, 105, -33, -1, -1, -4, 64, -74, -80, -76, 63, -1, -1, -2, 64, -66, 94, 9, -33, -1, -1, -4, 64, -97, -115, -101, -65, -1, -1, -1, 64, -85, 117, -92, -1, -1, -1, -2, 64, -119, -11, 38, -65, -1, -1, -4, 64, -79, -20, -42, 127, -1, -1, -2, 64, -81, 55, -54, 127, -1, -1, -6, 64, -101, 35, 31, 63, -1, -1, -4, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 8, -104, 0, 0, 0, 112, 47, 102, 105, 108, 116, 101, 114, 102, 114, 101, 113, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 114, 97, 110, 103, 101, 0, 0, 44, 100, 100, 0, 64, 121, 0, 0, 0, 0, 0, 0, 64, -77, -120, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 104, 122, 0, 44, 100, 0, 0, 63, -23, -103, -103, -96, 0, 0, 0, 0, 0, 0, 20, 47, 109, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 114, 97, 110, 100, 126, 0, 0, 0, 0, 0, 1, -80, 47, 109, 105, 100, 105, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -92, 47, 116, 105, 109, 101, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 114, 104, 121, 116, 104, 109, 115, 0, 0, 0, 0, 44, 115, 115, 115, 0, 0, 0, 0, 115, 50, 0, 0, 115, 51, 0, 0, 115, 53, 0, 0, 0, 0, 0, 40, 47, 112, 114, 111, 98, 115, 0, 0, 44, 100, 100, 100, 0, 0, 0, 0, 63, -26, 102, 102, 102, 102, 102, 102, 63, -20, -52, -52, -52, -52, -52, -51, 63, -71, -103, -103, -103, -103, -103, -102, 0, 0, 0, 20, 47, 99, 108, 111, 99, 107, 110, 97, 109, 101, 0, 0, 44, 115, 0, 0, 32, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 111, 98, 80, 108, 97, 121, 0, 0, 0, 44, 100, 0, 0, 63, -26, 102, 102, 96, 0, 0, 0, 0, 0, 0, -52, 47, 118, 97, 108, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 118, 97, 108, 115, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 92, 0, 0, 0, 94, 0, 0, 0, 95, 0, 0, 0, 97, 0, 0, 0, 99, 0, 0, 0, 100, 0, 0, 0, 102, 0, 0, 0, 76, 47, 112, 114, 111, 98, 115, 0, 0, 44, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 0, 63, -45, 51, 51, 51, 51, 51, 51, 63, -32, 0, 0, 0, 0, 0, 0, 63, -45, 51, 51, 51, 51, 51, 51, 63, -26, 102, 102, 102, 102, 102, 102, 63, -32, 0, 0, 0, 0, 0, 0, 63, -45, 51, 51, 51, 51, 51, 51, 63, -26, 102, 102, 102, 102, 102, 102, 0, 0, 0, 36, 47, 118, 97, 108, 109, 111, 100, 101, 0, 0, 0, 0, 44, 115, 0, 0, 112, 114, 111, 98, 97, 98, 105, 108, 105, 116, 121, 32, 112, 101, 114, 32, 118, 97, 108, 0, 0, 0, 0, 20, 47, 109, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 115, 116, 101, 112, 112, 101, 114, 0, 0, 0, 0, -64, 47, 102, 101, 101, 100, 98, 97, 99, 107, 0, 0, 0, 44, 100, 105, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 63, -31, 96, -66, 63, -1, -1, -1, 0, 0, 1, -12, 63, -25, 43, -88, 95, -1, -1, -4, 64, 107, -74, -51, 32, 0, 0, 0, 63, -44, -113, 77, 64, 0, 0, 7, 64, 118, 117, 60, 64, 0, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 64, 120, -40, -37, 64, 0, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 64, -123, 6, 67, -128, 0, 0, 0, 63, -24, 59, 45, 95, -1, -1, -4, 64, 121, -51, -127, 0, 0, 0, 0, 63, -36, 58, -104, -33, -1, -1, -3, 64, -124, 78, -57, 0, 0, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 64, 123, 60, 122, 0, 0, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 64, -111, 112, -43, 0, 0, 0, 0, 63, -26, -61, 58, 32, 0, 0, 4, 64, -122, -17, -113, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 77, 83, 0, 0, 0, 0, 44, 100, 105, 0, 64, 82, -128, 0, 0, 0, 0, 0, 0, 0, 1, -12, 0, 0, 0, 84, 47, 109, 97, 116, 114, 105, 120, 0, 44, 105, 100, 100, 105, 105, 100, 105, 100, 100, 100, 0, 0, 0, 0, 1, 63, -55, -103, -103, -97, -1, -1, -9, 63, -48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, -48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 63, -45, 51, 51, 64, 0, 0, 1, 63, -61, 51, 51, 63, -1, -1, -17, 63, -55, -103, -103, -97, -1, -1, -9, 0, 0, 4, 36, 47, 109, 121, 77, 111, 100, 117, 108, 101, 47, 50, 0, 44, 46, 0, 0, 0, 0, 4, 16, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 105, 0, 64, 94, -64, 0, 0, 0, 0, 0, 0, 0, 3, -24, 0, 0, 0, 24, 47, 100, 114, 121, 119, 101, 116, 0, 44, 100, 105, 0, 63, -23, -21, -123, 30, -72, 81, -20, 0, 0, 3, -24, 0, 0, 0, -100, 47, 102, 114, 101, 113, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, -116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 47, 118, 97, 108, 0, 0, 0, 0, 44, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 64, -49, 12, 63, -1, -1, -1, -4, 64, -88, 9, 124, -1, -1, -1, -5, 64, -59, 72, 102, 95, -1, -1, -6, 64, -102, -75, 53, -97, -1, -1, -4, 64, -72, -119, -81, -97, -1, -1, -6, 64, -96, -79, 65, 127, -1, -1, -4, 64, -115, 96, -18, 31, -1, -1, -4, 64, 120, 9, 124, -1, -1, -1, -5, 64, -111, 92, 47, -97, -1, -1, -4, 64, -126, -78, 11, -33, -1, -1, -4, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 1, -12, 0, 0, 0, 112, 47, 102, 105, 108, 116, 101, 114, 102, 114, 101, 113, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 114, 97, 110, 103, 101, 0, 0, 44, 100, 100, 0, 64, 68, 0, 0, 0, 0, 0, 0, 64, -73, 112, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 104, 122, 0, 44, 100, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 0, 0, 0, 20, 47, 109, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 114, 97, 110, 100, 126, 0, 0, 0, 0, 0, 1, -68, 47, 109, 105, 100, 105, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -80, 47, 116, 105, 109, 101, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 114, 104, 121, 116, 104, 109, 115, 0, 0, 0, 0, 44, 115, 115, 115, 115, 0, 0, 0, 115, 51, 0, 0, 115, 53, 0, 0, 115, 49, 49, 0, 115, 49, 51, 0, 0, 0, 0, 48, 47, 112, 114, 111, 98, 115, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 63, -26, 102, 102, 102, 102, 102, 102, 63, -32, 0, 0, 0, 0, 0, 0, 63, -26, 102, 102, 102, 102, 102, 102, 63, -45, 51, 51, 51, 51, 51, 51, 0, 0, 0, 20, 47, 99, 108, 111, 99, 107, 110, 97, 109, 101, 0, 0, 44, 115, 0, 0, 32, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 111, 98, 80, 108, 97, 121, 0, 0, 0, 44, 100, 0, 0, 63, -23, -103, -103, -96, 0, 0, 0, 0, 0, 0, -52, 47, 118, 97, 108, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 118, 97, 108, 115, 0, 0, 0, 44, 105, 105, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 58, 0, 0, 0, 59, 0, 0, 0, 61, 0, 0, 0, 63, 0, 0, 0, 64, 0, 0, 0, 66, 0, 0, 0, 76, 47, 112, 114, 111, 98, 115, 0, 0, 44, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 0, 63, -45, 51, 51, 51, 51, 51, 51, 63, -29, 51, 51, 51, 51, 51, 51, 63, -45, 51, 51, 51, 51, 51, 51, 63, -26, 102, 102, 102, 102, 102, 102, 63, -39, -103, -103, -103, -103, -103, -102, 63, -55, -103, -103, -103, -103, -103, -102, 63, -26, 102, 102, 102, 102, 102, 102, 0, 0, 0, 36, 47, 118, 97, 108, 109, 111, 100, 101, 0, 0, 0, 0, 44, 115, 0, 0, 112, 114, 111, 98, 97, 98, 105, 108, 105, 116, 121, 32, 112, 101, 114, 32, 118, 97, 108, 0, 0, 0, 0, 20, 47, 109, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 115, 116, 101, 112, 112, 101, 114, 0, 0, 0, 0, 120, 47, 102, 101, 101, 100, 98, 97, 99, 107, 0, 0, 0, 44, 100, 105, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 63, -31, 34, 21, -64, 0, 0, 1, 0, 0, 3, -24, 63, -53, -67, 71, -65, -1, -1, -10, 64, -126, 15, -38, 96, 0, 0, 0, 63, -82, 6, 23, -128, 0, 0, 56, 64, -115, 98, -17, -96, 0, 0, 0, 63, -62, 70, 125, -96, 0, 0, 7, 64, 113, 51, -85, 0, 0, 0, 0, 63, -31, 75, -37, 96, 0, 0, 2, 64, -117, -123, -33, -128, 0, 0, 0, 63, -20, -52, -52, -65, -1, -1, -1, 64, 116, 91, 2, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 77, 83, 0, 0, 0, 0, 44, 100, 105, 0, 64, 72, -128, 0, 0, 0, 0, 0, 0, 0, 1, -112, 0, 0, 0, 84, 47, 109, 97, 116, 114, 105, 120, 0, 44, 105, 100, 105, 100, 105, 100, 105, 100, 100, 100, 0, 0, 0, 0, 0, 63, -45, 51, 51, 64, 0, 0, 1, 0, 0, 0, 1, 63, -39, -103, -103, -97, -1, -1, -9, 0, 0, 0, 2, 63, -48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 63, -55, -103, -103, -97, -1, -1, -9, 63, -48, 0, 0, 0, 0, 0, 0, 63, -45, 51, 51, 64, 0, 0, 1, 0, 0, 0, -72, 47, 99, 108, 111, 99, 107, 115, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 102, 111, 111, 99, 108, 111, 99, 107, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 111, 110, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 3, -24, 0, 0, 0, 72, 47, 98, 97, 114, 99, 108, 111, 99, 107, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 111, 110, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 7, -48, 0, 0, 7, 32, 47, 97, 100, 100, 105, 116, 105, 111, 110, 97, 108, 98, 117, 110, 100, 108, 101, 115, 0, 0, 44, 46, 0, 0, 0, 0, 7, 4, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, -16, 47, 102, 117, 108, 108, 95, 112, 97, 116, 99, 104, 0, 44, 46, 0, 0, 0, 0, 6, -36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 95, 116, 111, 95, 100, 101, 108, 97, 121, 47, 100, 98, 0, 0, 0, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 95, 111, 117, 116, 47, 100, 98, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 47, 119, 101, 116, 95, 100, 114, 121, 0, 0, 0, 0, 44, 100, 0, 0, 63, -38, -75, 106, -43, -85, 86, -83, 0, 0, 0, 36, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 47, 105, 110, 116, 101, 114, 118, 97, 108, 0, 0, 0, 44, 100, 0, 0, 64, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 95, 111, 117, 116, 47, 100, 98, 0, 0, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 95, 105, 110, 47, 100, 98, 0, 0, 0, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 100, 0, 0, 64, -92, -14, -3, -5, -9, -17, -32, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 47, 102, 101, 101, 100, 98, 97, 99, 107, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 101, 108, 97, 121, 47, 115, 108, 101, 119, 0, 44, 100, 0, 0, 64, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 112, 114, 101, 97, 109, 112, 47, 100, 98, 0, 44, 100, 0, 0, -64, 32, -111, 34, 68, -119, 18, 32, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 105, 110, 112, 117, 116, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 116, 104, 114, 101, 115, 104, 111, 108, 100, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 97, 116, 105, 111, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 97, 116, 116, 97, 99, 107, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 101, 108, 101, 97, 115, 101, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 111, 117, 116, 112, 117, 116, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 98, 121, 112, 97, 115, 115, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 111, 114, 100, 101, 114, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 113, 0, 0, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 115, 104, 101, 108, 102, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 113, 0, 0, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, -119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 113, 0, 0, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, -93, -120, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 103, 97, 105, 110, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 113, 0, 0, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 115, 104, 101, 108, 102, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 102, 114, 101, 113, 0, 0, 0, 0, 44, 100, 0, 0, 64, -45, -120, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 111, 114, 100, 101, 114, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 32, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 98, 121, 112, 97, 115, 115, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 105, 110, 112, 117, 116, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 111, 117, 116, 112, 117, 116, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 98, 121, 112, 97, 115, 115, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 116, 104, 114, 101, 115, 104, 0, 0, 44, 100, 0, 0, -64, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 100, 105, 114, 101, 99, 116, 95, 108, 101, 118, 101, 108, 47, 100, 98, 0, 0, 0, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 114, 105, 110, 103, 95, 109, 111, 100, 47, 100, 98, 0, 0, 0, 0, 44, 100, 0, 0, -64, 81, -128, 0, 0, 0, 0, 0 ],
-									"saved_bundle_length" : 4248,
-									"text" : "/presetID : \"hello\",\n/myModule/1 : {\n  /gain : [98., 0],\n  /drywet : [0.99, 1000],\n  /freqs : {\n    /val : [13825.8, 4612.41, 5808.7, 7774.04, 2019.4, 3514.82, 830.644, 4588.84, 3995.9, 1736.78],\n    /dur : 2200\n  },\n  /filterfreq : {\n    /range : [400., 5000.],\n    /hz : 0.8,\n    /mode : \"rand~\"\n  },\n  /midi : {\n    /time : {\n      /rhythms : [\"s2\", \"s3\", \"s5\"],\n      /probs : [0.7, 0.9, 0.1],\n      /clockname : \" \",\n      /probPlay : 0.7\n    },\n    /vals : {\n      /vals : [92, 94, 95, 97, 99, 100, 102],\n      /probs : [0.3, 0.5, 0.3, 0.7, 0.5, 0.3, 0.7],\n      /valmode : \"probability per val\"\n    },\n    /mode : \"stepper\"\n  },\n  /feedback : [0.543059, 500, 0.724079, 221.713, 0.321246, 359.327, 0.9, 397.554, 0.9, 672.783, 0.757224, 412.844, 0.441076, 649.847, 0.9, 435.78, 0.9, 1116.21, 0.711331, 733.945],\n  /delayMS : [74., 500],\n  /matrix : [1, 0.2, 0.25, 0, 0, 0.25, 1, 0.3, 0.15, 0.2]\n},\n/myModule/2 : {\n  /gain : [123., 1000],\n  /drywet : [0.81, 1000],\n  /freqs : {\n    /val : [15896.5, 3076.74, 10896.8, 1709.3, 6281.69, 2136.63, 940.116, 384.593, 1111.05, 598.256],\n    /dur : 500\n  },\n  /filterfreq : {\n    /range : [40., 6000.],\n    /hz : 0.9,\n    /mode : \"rand~\"\n  },\n  /midi : {\n    /time : {\n      /rhythms : [\"s3\", \"s5\", \"s11\", \"s13\"],\n      /probs : [0.7, 0.5, 0.7, 0.3],\n      /clockname : \" \",\n      /probPlay : 0.8\n    },\n    /vals : {\n      /vals : [56, 58, 59, 61, 63, 64, 66],\n      /probs : [0.3, 0.6, 0.3, 0.7, 0.4, 0.2, 0.7],\n      /valmode : \"probability per val\"\n    },\n    /mode : \"stepper\"\n  },\n  /feedback : [0.535411, 1000, 0.216714, 577.982, 0.0586402, 940.367, 0.142776, 275.229, 0.54051, 880.734, 0.9, 325.688],\n  /delayMS : [49., 400],\n  /matrix : [0, 0.3, 1, 0.4, 2, 0.25, 4, 0.2, 0.25, 0.3]\n},\n/clocks : {\n  /fooclock : {\n    /on : 1,\n    /dur : 1000\n  },\n  /barclock : {\n    /on : 1,\n    /dur : 2000\n  }\n},\n/additionalbundles : {\n  /full_patch : {\n    /pitch_shift_to_delay/db : -70.,\n    /pitch_shift_out/db : -70.,\n    /pitch_shift/wet_dry : 0.417323,\n    /pitch_shift/interval : 7.,\n    /delay_out/db : -70.,\n    /delay_in/db : -70.,\n    /delay/ms : 2681.5,\n    /delay/feedback : 0.,\n    /delay/slew : 100.,\n    /channelstrip/preamp/db : -8.28346,\n    /channelstrip/compressor/input : 0.,\n    /channelstrip/compressor/threshold : 0.,\n    /channelstrip/compressor/ratio : 1,\n    /channelstrip/compressor/attack : 0.,\n    /channelstrip/compressor/release : 0.,\n    /channelstrip/compressor/output : 0.,\n    /channelstrip/compressor/bypass : 0,\n    /channelstrip/eq/hp/freq : 20.,\n    /channelstrip/eq/hp/order : 1,\n    /channelstrip/eq/lf/freq : 30.,\n    /channelstrip/eq/lf/gain : 1.,\n    /channelstrip/eq/lf/q : 0.707,\n    /channelstrip/eq/lf/shelf : 0,\n    /channelstrip/eq/lm/freq : 120.,\n    /channelstrip/eq/lm/gain : 1.,\n    /channelstrip/eq/lm/q : 0.707,\n    /channelstrip/eq/mh/freq : 800.,\n    /channelstrip/eq/mh/gain : 1.,\n    /channelstrip/eq/mh/q : 0.707,\n    /channelstrip/eq/hf/freq : 2500.,\n    /channelstrip/eq/hf/gain : 1.,\n    /channelstrip/eq/hf/q : 0.707,\n    /channelstrip/eq/hf/shelf : 1,\n    /channelstrip/eq/lp/freq : 20000.,\n    /channelstrip/eq/lp/order : 1,\n    /channelstrip/eq/bypass : 0,\n    /channelstrip/noisegate/input : 0.,\n    /channelstrip/noisegate/output : 0.,\n    /channelstrip/noisegate/bypass : 0,\n    /channelstrip/noisegate/thresh : -80.,\n    /direct_level/db : -70.,\n    /ring_mod/db : -70.\n  }\n}"
+									"patching_rect" : [ 50.0, 100.0, 365.0, 23.0 ],
+									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 101, 115, 101, 116, 73, 68, 0, 0, 0, 44, 115, 0, 0, 66, 97, 115, 101, 0, 0, 0, 0 ],
+									"saved_bundle_length" : 44,
+									"text" : "/presetID : \"Base\""
 								}
 
 							}
@@ -305,7 +302,7 @@
 
 							}
  ],
-						"originid" : "pat-15270"
+						"originid" : "pat-2651"
 					}
 ,
 					"patching_rect" : [ 1607.0, 493.0, 365.0, 22.0 ],
@@ -321,16 +318,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-7",
-					"linecount" : 42,
+					"linecount" : 44,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1861.66667628288269, 681.333353638648987, 282.0, 558.0 ],
+					"patching_rect" : [ 1861.66667628288269, 681.333353638648987, 282.0, 584.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 42,
-					"presentation_rect" : [ 1344.0, 645.0, 282.0, 558.0 ],
-					"text" : "/channelstrip/eq/lp/order : 1,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/compressor/threshold : 0.,\n/delay_out/db : -70.,\n/delay/feedback : 0.,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/bypass : 0,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/compressor/input : 0.,\n/pitch_shift/interval : 7.,\n/delay/ms : 2681.5,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/compressor/output : 0.,\n/ring_mod/db : -70.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/noisegate/bypass : 0,\n/pitch_shift/wet_dry : 0.417323,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/noisegate/output : 0.,\n/pitch_shift_out/db : -70.,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/preamp/db : -8.28346,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/noisegate/thresh : -80.,\n/pitch_shift_to_delay/db : -70.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/compressor/ratio : 1,\n/delay_in/db : -70.,\n/delay/slew : 100.,\n/channelstrip/eq/lm/gain : 1.,\n/direct_level/db : -70."
+					"presentation_linecount" : 44,
+					"presentation_rect" : [ 1344.0, 645.0, 282.0, 584.0 ],
+					"text" : "/delay_out/db : -70.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/compressor/release : 0.,\n/channelstrip/eq/hf/gain : 1.,\n/pitch_shift_to_delay/db : -70.,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/bypass : 0,\n/delay_in/db : -70.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/noisegate/thresh : -80.,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/eq/hf/freq : 2500.,\n/ring_mod/db : -70.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lp/order : 1,\n/direct_level/db : -70.,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/compressor/ratio : 1,\n/delay/slew : 100.,\n/channelstrip/eq/mh/q : 0.707,\n/ringmod/input1 : 0.,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/lp/freq : 20000.,\n/pitch_shift/interval : 0.,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/compressor/threshold : 0.,\n/delay/ms : 3.,\n/channelstrip/eq/mh/gain : 1.,\n/ringmod/input2 : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hf/shelf : 1,\n/pitch_shift/wet_dry : 0.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/compressor/input : 0.,\n/channelstrip/eq/mh/freq : 800.,\n/ringmod/output : 12.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/eq/hf/q : 0.707,\n/pitch_shift_out/db : -70.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/preamp/db : 0."
 				}
 
 			}
@@ -687,16 +684,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-53",
-					"linecount" : 43,
+					"linecount" : 44,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 571.0 ],
+					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 584.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 43,
-					"presentation_rect" : [ 1041.0, 699.0, 282.0, 571.0 ],
-					"text" : "/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.417323,\n/pitch_shift/interval : 7.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 2681.5,\n/delay/feedback : 0.,\n/delay/slew : 100.,\n/channelstrip/preamp/db : -8.28346,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/thresh : -80.,\n/direct_level/db : -70.,\n/ring_mod/db : -70.,\n/MyModule/MyParameter : 10."
+					"presentation_linecount" : 44,
+					"presentation_rect" : [ 1041.0, 699.0, 282.0, 584.0 ],
+					"text" : "/channelstrip/preamp/db : 0.,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lp/freq : 15000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/hf/freq : 4498.,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/hf/gain : 2.1,\n/channelstrip/eq/lf/gain : 0.22,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/hf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/gain : 1.54,\n/channelstrip/eq/mh/gain : 0.31,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/thresh : -80.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/ring_mod/db : -70.,\n/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.,\n/pitch_shift/interval : 0.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 3.,\n/delay/slew : 100.,\n/direct_level/db : -70.,\n/ringmod/output : 12.,\n/ringmod/input2 : 0.,\n/ringmod/input1 : 0."
 				}
 
 			}
@@ -833,7 +830,7 @@
 
 							}
  ],
-						"originid" : "pat-8226"
+						"originid" : "pat-2963"
 					}
 ,
 					"patching_rect" : [ 469.0, 219.0, 126.0, 22.0 ],
@@ -1066,7 +1063,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 42.5, 291.6484375, 1044.5, 291.6484375 ],
-					"order" : 0,
+					"order" : 3,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1082,7 +1079,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"midpoints" : [ 42.5, 292.55859375, 215.5, 292.55859375 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1090,7 +1087,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1099,7 +1096,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"midpoints" : [ 42.5, 292.58203125, 488.5, 292.58203125 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1116,6 +1113,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
@@ -1457,7 +1461,7 @@
 
 			}
  ],
-		"originid" : "pat-8202",
+		"originid" : "pat-2643",
 		"parameters" : 		{
 			"obj-11::obj-14::obj-24" : [ "Input[1]", "/input", 0 ],
 			"obj-11::obj-14::obj-25" : [ "Threshold[1]", "/threshold", 0 ],
@@ -1621,77 +1625,77 @@
 , 			{
 				"name" : "jw.odot.channelstrip.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.compressor.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.delay.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.eq.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.hfader.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.korg_nanokontrol.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.noisegate.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.pitchshift.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.preamp.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jw.odot.ringmod.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.accum.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../CNMAT-odot/patchers/namespace",
+				"patcherrelativepath" : "../../CNMAT-odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1730,7 +1734,7 @@
 , 			{
 				"name" : "o.gather.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../CNMAT-odot/patchers/namespace",
+				"patcherrelativepath" : "../../CNMAT-odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1753,98 +1757,98 @@
 , 			{
 				"name" : "o.preset.additionalcapture.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.dictnullcheck.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.explodebymodule.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.gather.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.getpresetIDs.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.manager-bp.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.opColorReceive.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.opColorSend.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.receive.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.removebrokenaddrs.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_allpresets.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_within_allpresets.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_within_preset.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.righttoleft.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-odot/patchers/ordering",
-				"patcherrelativepath" : "../CNMAT-odot/patchers/ordering",
+				"patcherrelativepath" : "../../CNMAT-odot/patchers/ordering",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1867,14 +1871,14 @@
 , 			{
 				"name" : "panmodule2.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/legacy-examples/5-point-1-fun/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/legacy-examples/5-point-1-fun/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Examples/legacy-examples/5-point-1-fun/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "redoButton.png",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/media",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/media",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1887,7 +1891,7 @@
 , 			{
 				"name" : "undoButton.png",
 				"bootpath" : "~/Documents/Max 9/Packages/CNMAT-o.preset/media",
-				"patcherrelativepath" : "../../../Max 9/Packages/CNMAT-o.preset/media",
+				"patcherrelativepath" : "../../../../Max 9/Packages/CNMAT-o.preset/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

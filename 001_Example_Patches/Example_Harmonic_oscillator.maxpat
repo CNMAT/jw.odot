@@ -10,9 +10,75 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -14.0, -993.0, 1396.0, 941.0 ],
+		"rect" : [ 34.0, 124.0, 1660.0, 941.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-26",
+					"linecount" : 4,
+					"maxclass" : "o.display",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1011.0, 214.5, 150.0, 72.0 ],
+					"text" : "/f : 400.,\n/Q : 1.414,\n/omega_1 : 2513.27,\n/lambda : 950.092"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-24",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1104.0, 30.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-21",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1011.0, 30.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 1011.0, 77.0, 64.0, 22.0 ],
+					"text" : "o.pak /f /Q"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "o.expr.codebox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"patching_rect" : [ 1011.0, 130.0, 275.0, 57.0 ],
+					"text" : "/f ??= 1.0, /Q ??= 1,\n/omega_1 = twopi()*/f,\n/lambda = /omega_1 / sqrt(4* /Q * /Q -1)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "preset",
@@ -300,13 +366,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-39",
-					"linecount" : 12,
+					"linecount" : 13,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 637.0, 404.5, 150.0, 174.0 ],
-					"text" : "/x : 23.6759,\n/c : 1.,\n/k : -100.,\n/m : 1.,\n/x_dotdot : 0,\n/x_dot : 0,\n/zeta : 0.1,\n/omega_0 : 10.,\n/omega_1 : 9.94987,\n/f0 : 1.59155,\n/f1 : 1.58357,\n/decay_rate : 0.5"
+					"patching_rect" : [ 637.0, 404.5, 150.0, 187.0 ],
+					"text" : "/x : 32.2789,\n/c : 0.5,\n/k : -1.,\n/m : 1.,\n/x_dotdot : 0,\n/x_dot : 0,\n/zeta : 0.5,\n/omega_0 : 1.,\n/omega_1 : 0.866025,\n/f0 : 0.159155,\n/f1 : 0.137832,\n/decay_rate : 0.25,\n/Q : 1."
 				}
 
 			}
@@ -314,13 +380,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-36",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 637.0, 283.0, 282.0, 95.0 ],
-					"text" : "/zeta = /c / sqrt(/m * abs(/k)),\n/omega_0 = sqrt(abs(/k) / /m),\n/omega_1 = /omega_0*sqrt(1-pow(/zeta,2)),\n/f0 = /omega_0 / twopi(),\n/f1 = /omega_1 / twopi(),\n/decay_rate = /c / (2* /m)"
+					"patching_rect" : [ 637.0, 283.0, 282.0, 108.0 ],
+					"text" : "/zeta = /c / sqrt(/m * abs(/k)),\n/omega_0 = sqrt(abs(/k) / /m),\n/omega_1 = /omega_0*sqrt(1-pow(/zeta,2)),\n/f0 = /omega_0 / twopi(),\n/f1 = /omega_1 / twopi(),\n/decay_rate = /c / (2* /m), \n/Q = 1 / (2 * /zeta)"
 				}
 
 			}
@@ -420,7 +486,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.5, 738.0, 275.0, 161.0 ],
-					"text" : "/offset : 15.9252,\n/x : 26.6755,\n/c : 1.,\n/k : -100.,\n/m : 1.,\n/x_dotdot : -10.9758,\n/x_dot : -25.5148,\n/prevTime : 2025-04-16T22:23:03.740457Z,\n/delta : 0.0100031,\n/F : -1097.25,\n/time : 2025-04-16T22:23:03.740457Z"
+					"text" : "/offset : 30.,\n/x : 30,\n/c : 0.5,\n/k : -1.,\n/m : 1.,\n/x_dotdot : -1.24994e-29,\n/x_dot : -1.42109e-13,\n/prevTime : 2025-04-18T15:36:24.201136Z,\n/delta : 0.0100031,\n/F : -1.24956e-27,\n/time : 2025-04-18T15:36:24.201136Z"
 				}
 
 			}
@@ -524,7 +590,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 190.0, 380.0, 381.0, 172.0 ],
-					"text" : "/x_dotdot ??= 0, /x_dot ??=0, /x ??= 0, /prevTime ??= 0,\n/m ??= 1.0, /c ??= 1.0, /k ??= 1.0, /offset ??=0,\n\n/delta = float32(/time - /prevTime),\n/F = /m * /x_dotdot - /c* /x_dot + /k * (/x-/offset),\n/x_dotdot = /F / /m * /delta,\n/x_dot += /x_dotdot,\n/x += /x_dot * /delta,\n\n\n/prevTime = /time\n"
+					"text" : "/x_dotdot ??= 0, /x_dot ??=0, /x ??= 0, /prevTime ??= 0,\n/m ??= 1.0, /c ??= 1.0, /k ??= 1.0, /offset ??=0,\n\n/delta = float32(/time - /prevTime),\n/F = /m * /x_dotdot - /c* /x_dot + /k * (/x-/offset),\n/x_dotdot = /F / /m  * /delta,\n/x_dot += /x_dotdot,\n/x += /x_dot * /delta,\n\n\n/prevTime = /time\n"
 				}
 
 			}
@@ -668,6 +734,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -682,8 +755,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -830,6 +917,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -963,13 +1057,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"order" : 2,
 					"source" : [ "obj-9", 0 ]
@@ -993,7 +1080,7 @@
 
 			}
  ],
-		"originid" : "pat-1434",
+		"originid" : "pat-1779",
 		"parameters" : 		{
 			"obj-4::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-4::obj-35" : [ "[5]", "Level", 0 ],
@@ -1046,6 +1133,10 @@
 			}
 , 			{
 				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pak.mxo",
 				"type" : "iLaX"
 			}
 , 			{
