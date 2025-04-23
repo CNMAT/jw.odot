@@ -10,9 +10,20 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 113.0, 1532.0, 948.0 ],
+		"rect" : [ 34.0, 196.0, 1532.0, 948.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 452.0, 853.0, 150.0, 20.0 ],
+					"text" : "hello"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -248,16 +259,17 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
+									"background_color" : [ 0.796, 0.796, 0.796, 1.0 ],
 									"fontface" : 0,
 									"id" : "obj-8",
+									"ignoreclick" : 1,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 365.0, 23.0 ],
-									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 101, 115, 101, 116, 73, 68, 0, 0, 0, 44, 115, 0, 0, 66, 97, 115, 101, 0, 0, 0, 0 ],
-									"saved_bundle_length" : 44,
-									"text" : "/presetID : \"Base\""
+									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+									"saved_bundle_length" : 16
 								}
 
 							}
@@ -302,7 +314,7 @@
 
 							}
  ],
-						"originid" : "pat-2651"
+						"originid" : "pat-3897"
 					}
 ,
 					"patching_rect" : [ 1607.0, 493.0, 365.0, 22.0 ],
@@ -318,16 +330,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-7",
-					"linecount" : 44,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1861.66667628288269, 681.333353638648987, 282.0, 584.0 ],
+					"patching_rect" : [ 1861.66667628288269, 681.333353638648987, 282.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 44,
-					"presentation_rect" : [ 1344.0, 645.0, 282.0, 584.0 ],
-					"text" : "/delay_out/db : -70.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/compressor/release : 0.,\n/channelstrip/eq/hf/gain : 1.,\n/pitch_shift_to_delay/db : -70.,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/bypass : 0,\n/delay_in/db : -70.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/noisegate/thresh : -80.,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/eq/hf/freq : 2500.,\n/ring_mod/db : -70.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lp/order : 1,\n/direct_level/db : -70.,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/compressor/ratio : 1,\n/delay/slew : 100.,\n/channelstrip/eq/mh/q : 0.707,\n/ringmod/input1 : 0.,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/lp/freq : 20000.,\n/pitch_shift/interval : 0.,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/compressor/threshold : 0.,\n/delay/ms : 3.,\n/channelstrip/eq/mh/gain : 1.,\n/ringmod/input2 : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/eq/hf/shelf : 1,\n/pitch_shift/wet_dry : 0.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/compressor/input : 0.,\n/channelstrip/eq/mh/freq : 800.,\n/ringmod/output : 12.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/eq/hf/q : 0.707,\n/pitch_shift_out/db : -70.,\n/channelstrip/eq/lf/gain : 1.,\n/channelstrip/preamp/db : 0."
+					"presentation_rect" : [ 1344.0, 645.0, 282.0, 33.0 ]
 				}
 
 			}
@@ -684,16 +693,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-53",
-					"linecount" : 44,
+					"linecount" : 45,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 584.0 ],
+					"patching_rect" : [ 1539.0, 681.333353638648987, 282.0, 597.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 44,
-					"presentation_rect" : [ 1041.0, 699.0, 282.0, 584.0 ],
-					"text" : "/channelstrip/preamp/db : 0.,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lp/freq : 15000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/hf/freq : 4498.,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/hf/gain : 2.1,\n/channelstrip/eq/lf/gain : 0.22,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/hf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/gain : 1.54,\n/channelstrip/eq/mh/gain : 0.31,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/thresh : -80.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/ring_mod/db : -70.,\n/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.,\n/pitch_shift/interval : 0.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 3.,\n/delay/slew : 100.,\n/direct_level/db : -70.,\n/ringmod/output : 12.,\n/ringmod/input2 : 0.,\n/ringmod/input1 : 0."
+					"presentation_linecount" : 45,
+					"presentation_rect" : [ 1041.0, 699.0, 282.0, 597.0 ],
+					"text" : "/ring_mod/db : -70.,\n/pitch_shift_to_delay/db : -70.,\n/pitch_shift_out/db : -70.,\n/pitch_shift/wet_dry : 0.582677,\n/pitch_shift/interval : 26.,\n/delay_out/db : -70.,\n/delay_in/db : -70.,\n/delay/ms : 16064,\n/delay/feedback : 100.,\n/delay/slew : 100.,\n/channelstrip/preamp/db : -41.6063,\n/channelstrip/eq/lf/gain : 0.26,\n/channelstrip/eq/hp/freq : 20.,\n/channelstrip/eq/hp/order : 1,\n/channelstrip/eq/lf/freq : 30.,\n/channelstrip/eq/lf/q : 0.707,\n/channelstrip/eq/lf/shelf : 0,\n/channelstrip/eq/lm/freq : 120.,\n/channelstrip/eq/lm/gain : 1.,\n/channelstrip/eq/lm/q : 0.707,\n/channelstrip/eq/mh/freq : 800.,\n/channelstrip/eq/mh/gain : 1.,\n/channelstrip/eq/mh/q : 0.707,\n/channelstrip/eq/hf/freq : 2500.,\n/channelstrip/eq/hf/gain : 1.,\n/channelstrip/eq/hf/q : 0.707,\n/channelstrip/eq/hf/shelf : 1,\n/channelstrip/eq/lp/freq : 20000.,\n/channelstrip/eq/lp/order : 1,\n/channelstrip/eq/bypass : 0,\n/channelstrip/compressor/input : 0.,\n/channelstrip/compressor/threshold : 0.,\n/channelstrip/compressor/ratio : 1,\n/channelstrip/compressor/attack : 0.,\n/channelstrip/compressor/release : 0.,\n/channelstrip/compressor/output : 0.,\n/channelstrip/compressor/bypass : 0,\n/channelstrip/noisegate/input : 0.,\n/channelstrip/noisegate/output : 0.,\n/channelstrip/noisegate/bypass : 0,\n/channelstrip/noisegate/thresh : -80.,\n/direct_level/db : -70.,\n/ringmod/input1 : 0.,\n/ringmod/input2 : 0.,\n/ringmod/output : 0."
 				}
 
 			}
@@ -727,7 +736,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 566.0, 280.0, 1000.0, 780.0 ],
+						"rect" : [ 566.0, 363.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -830,7 +839,7 @@
 
 							}
  ],
-						"originid" : "pat-2963"
+						"originid" : "pat-4209"
 					}
 ,
 					"patching_rect" : [ 469.0, 219.0, 126.0, 22.0 ],
@@ -966,7 +975,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.0, 901.0, 55.0, 22.0 ],
-					"text" : "dac~ 1 3"
+					"text" : "dac~ 1 2"
 				}
 
 			}
@@ -1461,7 +1470,7 @@
 
 			}
  ],
-		"originid" : "pat-2643",
+		"originid" : "pat-3889",
 		"parameters" : 		{
 			"obj-11::obj-14::obj-24" : [ "Input[1]", "/input", 0 ],
 			"obj-11::obj-14::obj-25" : [ "Threshold[1]", "/threshold", 0 ],
