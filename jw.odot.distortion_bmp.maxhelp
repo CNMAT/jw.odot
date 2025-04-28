@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, -885.0, 1000.0, 780.0 ],
+		"rect" : [ 100.0, -885.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -22,7 +22,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 708.0, 408.0, 259.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 118, 111, 108, 117, 109, 101, 0, 0, 44, 100, 105, 100, 105, 105, 105, 100, 105, 0, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, -48, 0, 0, 0, 1, 0, 0, 7, -48, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 7, -48 ],
 					"saved_bundle_length" : 100,
 					"text" : "/distortion_bmp/volume : [0.5, 0, 0., 2000, 1, 2000, 0.5, 2000]"
@@ -39,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 708.0, 366.5, 259.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 116, 111, 110, 101, 0, 0, 0, 0, 44, 100, 105, 100, 105, 105, 105, 100, 105, 0, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, -48, 0, 0, 0, 1, 0, 0, 7, -48, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 7, -48 ],
 					"saved_bundle_length" : 100,
 					"text" : "/distortion_bmp/tone : [0.5, 0, 0., 2000, 1, 2000, 0.5, 2000]"
@@ -85,8 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 304.0, 259.0, 36.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 708.0, 304.0, 266.0, 36.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 115, 117, 115, 116, 97, 105, 110, 0, 44, 105, 105, 105, 105, 105, 105, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 39, 16, 0, 0, 0, 1, 0, 0, 39, 16 ],
 					"saved_bundle_length" : 76,
 					"text" : "/distortion_bmp/sustain : [1, 0, 10, 10000, 1, 10000]"
@@ -102,7 +99,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 342.0, 400.0, 206.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 118, 111, 108, 117, 109, 101, 0, 0, 44, 100, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 56,
 					"text" : "/distortion_bmp/volume : 0.5"
@@ -197,14 +193,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-42",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 542.0, 254.0, 72.0 ],
-					"presentation_linecount" : 8,
-					"text" : "/distortion_bmp/sustain : 1.,\n/distortion_bmp/tone : 0.5,\n/distortion_bmp/volume : 0.5,\n/distortion_bmp/bypass : 0"
+					"patching_rect" : [ 238.0, 542.0, 254.0, 59.0 ],
+					"text" : "/distortion_bmp/sustain : 1.,\n/distortion_bmp/tone : 0.5,\n/distortion_bmp/volume : 0.5"
 				}
 
 			}
@@ -239,7 +234,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.0, 302.0, 130.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set Sustain (distortion)",
 					"textjustification" : 1
 				}
@@ -254,7 +248,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 342.0, 365.0, 193.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 116, 111, 110, 101, 0, 0, 0, 0, 44, 100, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 56,
 					"text" : "/distortion_bmp/tone : 0.5"
@@ -270,7 +263,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 342.0, 304.0, 199.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 115, 117, 115, 116, 97, 105, 110, 0, 44, 105, 0, 0, 0, 0, 0, 1 ],
 					"saved_bundle_length" : 52,
 					"text" : "/distortion_bmp/sustain : 1"
@@ -507,7 +499,7 @@
 
 			}
  ],
-		"originid" : "pat-25470",
+		"originid" : "pat-8082",
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "live.dial[2]", "/volume", 0 ],
 			"obj-1::obj-36" : [ "live.dial", "/sustain", 0 ],
