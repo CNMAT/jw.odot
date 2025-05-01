@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, 169.0, 1000.0, 780.0 ],
+		"rect" : [ 100.0, 100.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 738.0, 525.0, 150.0, 87.0 ],
-					"presentation_linecount" : 6,
 					"text" : "Copy/paste the receive and o.display into a new patcher. Turn on SIAI in Audio Settings. The behavior will often become unpredictable."
 				}
 
@@ -227,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 118.0, 616.0, 154.0 ],
-					"text" : "jw.s and jw.r implement a workaround for sending and receiving odot bundles between patchers. This is particularly necessary when using \"Audio Interrupt\" (SIAI) which causes staling (corruption) of odot bundles when sent between patchers. The order of operations under SIAI causes the memory associated with an odot address to be freed in one patch before it needs to be accessed in the other. This usually leads to a corruption of the odot bundle. This workaround leverages udpsend & udpreceive to solve the problem. Since udpsend atomizes the bundle and udpreceive creates a new copy of the bundle, Max won't try to access a region of freed memory.\n\nLike the send and receive objects a named jw.s will send to a jw.r with the same specified name. The key difference here is that the specified name must be an odot address. Since we are using udpsend/receive, the second argument allows the user to specify the port number to avoid crosstalk with other UDP sends and receives."
+					"text" : "jw.s and jw.r implement a workaround for sending and receiving odot bundles between patchers. This is particularly necessary when using \"Audio Interrupt\" (SIAI) which causes staling (corruption) of odot bundles when sent between patchers. The order of operations under SIAI causes the memory associated with an odot address to be freed in one patch before it needs to be accessed in the other. This usually leads to a corruption of the odot bundle. This workaround leverages udpsend & udpreceive to solve the problem. Since udpsend atomizes the bundle and udpreceive creates a new copy of the bundle, Max won't try to access a region of freed memory.\n\nLike the send and receive objects a named jw.s will send to a jw.r with the same specified name. The key difference here is that the specified name must be an odot address. Since we are using udpsend/receive, the second argument allows the user to specify the port number to avoid crosstalk with other UDP sends and receives. Both arguments are optional; the objects will initialize with the default value of /foo on port 1750."
 				}
 
 			}
@@ -261,7 +260,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 496.0, 290.0, 46.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Bundle"
 				}
 
@@ -309,7 +307,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 312.0, 150.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 116, 101, 115, 116, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 32, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 97, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1 ],
 					"saved_bundle_length" : 68,
 					"text" : "/test : {\n  /a : 1\n}"
@@ -354,8 +351,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 593.0, 150.0, 33.0 ],
-					"text" : "/test : \"hello\""
+					"patching_rect" : [ 33.0, 593.0, 150.0, 33.0 ]
 				}
 
 			}
@@ -538,7 +534,7 @@
 
 			}
  ],
-		"originid" : "pat-7957",
+		"originid" : "pat-8650",
 		"dependency_cache" : [ 			{
 				"name" : "jw.r.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
