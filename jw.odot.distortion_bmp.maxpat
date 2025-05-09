@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 157.0, -891.0, 943.0, 857.0 ],
+		"rect" : [ 134.0, 172.0, 943.0, 857.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -31,8 +31,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 1000.0, 780.0 ],
+						"rect" : [ 59.0, 119.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-153",
@@ -255,7 +256,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-152", 1 ],
+									"destination" : [ "obj-152", 0 ],
 									"source" : [ "obj-166", 0 ]
 								}
 
@@ -282,7 +283,7 @@
 
 							}
  ],
-						"originid" : "pat-25469"
+						"originid" : "pat-3123"
 					}
 ,
 					"patching_rect" : [ 1022.0, 418.0, 91.0, 22.0 ],
@@ -479,7 +480,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 796.0, 153.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Output Gain and saturation"
 				}
 
@@ -518,7 +518,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 182.0, 353.0, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Waveshaping Clipping Emulation w/ filtering approximation"
 				}
 
@@ -1649,7 +1648,7 @@
 
 			}
  ],
-		"originid" : "pat-16534",
+		"originid" : "pat-3121",
 		"parameters" : 		{
 			"obj-109" : [ "live.dial[2]", "/volume", 0 ],
 			"obj-36" : [ "live.dial", "/sustain", 0 ],

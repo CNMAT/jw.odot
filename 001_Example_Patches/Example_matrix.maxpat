@@ -15,6 +15,84 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 381.0, 262.0, 35.0, 22.0 ],
+					"text" : "o.var"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 325.0, 262.0, 48.0, 22.0 ],
+					"text" : "o.union"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-75",
+					"maxclass" : "o.compose",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 320.0, 167.5, 166.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 339.0, 137.0, 166.0, 23.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 97, 116, 114, 105, 120, 47, 114, 97, 109, 112, 116, 105, 109, 101, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 1, -12 ],
+					"saved_bundle_length" : 48,
+					"text" : "/matrix/ramptime : 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 357.0, 18.0, 150.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 108.0, 31.0, 896.0, 20.0 ],
+					"text" : "In this example, we use an ensemble of jw.odot objects routed to and from a jw.odot.matrix object. The full state of the patch is captured as an odot bundle (scroll right)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 92.0, 584.5, 81.0, 22.0 ],
+					"text" : "loadmess -80"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 199.0, 324.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -43,10 +121,9 @@
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1030.0, 801.5, 92.0, 22.0 ],
-					"text" : "r~ distortion_ret"
+					"numoutlets" : 0,
+					"patching_rect" : [ 1030.0, 801.5, 94.0, 22.0 ],
+					"text" : "s~ distortion_ret"
 				}
 
 			}
@@ -472,7 +549,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 742.0, 35.0, 22.0 ],
+					"patching_rect" : [ 32.0, 771.5, 35.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 152.0, 593.0, 35.0, 22.0 ],
 					"text" : "dac~"
@@ -488,7 +565,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 32.0, 592.0, 48.0, 136.0 ],
+					"patching_rect" : [ 32.0, 621.5, 48.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 152.0, 443.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
@@ -516,7 +593,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 128.0, 150.0, 114.0 ],
+					"patching_rect" : [ 607.0, 112.0, 150.0, 114.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 56.0, 279.0, 94.0, 114.0 ],
@@ -531,7 +608,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 535.0, 128.0, 150.0, 100.0 ],
+					"patching_rect" : [ 778.0, 112.0, 150.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 151.0, 172.0, 129.0, 100.0 ],
@@ -610,7 +687,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 167.0, 150.0, 23.0 ],
+					"patching_rect" : [ 168.0, 167.5, 150.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 177.0, 137.0, 150.0, 23.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 97, 116, 114, 105, 120, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0 ],
@@ -729,15 +806,15 @@
 								"box" : 								{
 									"fontface" : 0,
 									"id" : "obj-8",
-									"linecount" : 54,
+									"linecount" : 58,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 365.0, 23.0 ],
-									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 112, 114, 101, 115, 101, 116, 73, 68, 0, 0, 0, 44, 115, 0, 0, 77, 105, 99, 50, 83, 112, 101, 97, 107, 101, 114, 115, 0, 0, 0, 0, 0, 0, 8, 56, 47, 97, 100, 100, 105, 116, 105, 111, 110, 97, 108, 98, 117, 110, 100, 108, 101, 115, 0, 0, 44, 46, 0, 0, 0, 0, 8, 28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 47, 102, 117, 108, 108, 95, 112, 97, 116, 99, 104, 0, 44, 46, 0, 0, 0, 0, 7, -12, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 111, 117, 116, 112, 117, 116, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 115, 104, 101, 108, 102, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 97, 116, 116, 97, 99, 107, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 112, 114, 101, 97, 109, 112, 47, 100, 98, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 111, 117, 116, 115, 0, 44, 105, 0, 0, 0, 0, 0, 6, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -93, -120, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 116, 104, 114, 101, 115, 104, 0, 0, 0, 0, 44, 100, 0, 0, -64, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 97, 116, 105, 111, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 100, 117, 116, 121, 95, 99, 121, 99, 108, 101, 0, 0, 44, 100, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 111, 102, 102, 115, 101, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 111, 114, 100, 101, 114, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 105, 110, 112, 117, 116, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 97, 116, 114, 105, 120, 47, 101, 110, 97, 98, 108, 101, 103, 97, 105, 110, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 56, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 116, 104, 114, 101, 115, 104, 111, 108, 100, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 0, 44, 115, 0, 0, 83, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 115, 104, 101, 108, 102, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 109, 97, 116, 114, 105, 120, 47, 114, 97, 109, 112, 116, 105, 109, 101, 0, 0, 0, 0, 44, 100, 0, 0, 64, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -45, -120, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 97, 116, 114, 105, 120, 47, 101, 120, 99, 108, 117, 115, 105, 118, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 105, 110, 112, 117, 116, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 102, 114, 101, 113, 117, 101, 110, 99, 121, 0, 0, 0, 44, 100, 0, 0, 64, 47, 38, 27, -42, -20, 85, -93, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 111, 117, 116, 112, 117, 116, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 111, 114, 100, 101, 114, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, -72, 47, 109, 97, 116, 114, 105, 120, 47, 99, 111, 110, 110, 101, 99, 116, 105, 111, 110, 115, 0, 44, 46, 46, 0, 0, 0, 0, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 110, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 111, 117, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 110, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 111, 117, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 101, 108, 101, 97, 115, 101, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 105, 110, 115, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5 ],
-									"saved_bundle_length" : 2160,
-									"text" : "/presetID : \"Mic2Speakers\",\n/additionalbundles : {\n  /full_patch : {\n    /myMic/channelstrip/eq/lf/freq : 30.,\n    /myMic/channelstrip/noisegate/output : 0.,\n    /myMic/channelstrip/eq/hf/shelf : 1,\n    /myMic/channelstrip/compressor/attack : 0.,\n    /myMic/channelstrip/preamp/db : 0.,\n    /myMic/channelstrip/eq/mh/gain : 1.,\n    /matrix/numouts : 6,\n    /myMic/channelstrip/eq/hf/freq : 2500.,\n    /myMic/channelstrip/noisegate/thresh : -80.,\n    /myMic/channelstrip/eq/lf/q : 0.707,\n    /myMic/channelstrip/compressor/ratio : 1,\n    /oscillator/duty_cycle : 0.5,\n    /myMic/channelstrip/eq/lm/gain : 1.,\n    /matrix/offset : 0,\n    /myMic/channelstrip/eq/lp/order : 1,\n    /myMic/channelstrip/noisegate/input : 0.,\n    /matrix/enablegain : 1,\n    /myMic/channelstrip/eq/hf/q : 0.707,\n    /myMic/channelstrip/compressor/threshold : 0.,\n    /oscillator/waveform : \"Sine\",\n    /myMic/channelstrip/eq/lf/shelf : 0,\n    /matrix/ramptime : 40.,\n    /myMic/channelstrip/compressor/bypass : 0,\n    /myMic/channelstrip/eq/lp/freq : 20000.,\n    /myMic/channelstrip/eq/bypass : 0,\n    /matrix/exclusive : 0,\n    /myMic/channelstrip/eq/lf/gain : 1.,\n    /myMic/channelstrip/compressor/input : 0.,\n    /oscillator/frequency : 15.5744,\n    /myMic/channelstrip/eq/mh/freq : 800.,\n    /myMic/channelstrip/compressor/output : 0.,\n    /myMic/channelstrip/eq/hp/order : 1,\n    /myMic/channelstrip/eq/mh/q : 0.707,\n    /matrix/connections : [{\n      /in : 0,\n      /gain : 1.,\n      /out : 0\n    }, {\n      /in : 0,\n      /gain : 1.,\n      /out : 1\n    }],\n    /myMic/channelstrip/eq/hf/gain : 1.,\n    /myMic/channelstrip/noisegate/bypass : 0,\n    /myMic/channelstrip/eq/lm/freq : 120.,\n    /myMic/channelstrip/compressor/release : 0.,\n    /myMic/channelstrip/eq/hp/freq : 20.,\n    /myMic/channelstrip/eq/lm/q : 0.707,\n    /matrix/numins : 5\n  }\n}"
+									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 114, 101, 115, 101, 116, 73, 68, 0, 0, 0, 44, 115, 0, 0, 73, 110, 105, 116, 0, 0, 0, 0, 0, 0, 9, 8, 47, 97, 100, 100, 105, 116, 105, 111, 110, 97, 108, 98, 117, 110, 100, 108, 101, 115, 0, 0, 44, 46, 0, 0, 0, 0, 8, -20, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, -40, 47, 102, 117, 108, 108, 95, 112, 97, 116, 99, 104, 0, 44, 46, 0, 0, 0, 0, 8, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 111, 117, 116, 112, 117, 116, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 101, 108, 97, 121, 47, 115, 108, 101, 119, 0, 44, 100, 0, 0, 64, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 115, 104, 101, 108, 102, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 97, 116, 116, 97, 99, 107, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 47, 119, 101, 116, 95, 100, 114, 121, 0, 0, 0, 0, 44, 100, 0, 0, 63, -32, 32, 64, -127, 2, 4, 9, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 112, 114, 101, 97, 109, 112, 47, 100, 98, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 111, 117, 116, 115, 0, 44, 105, 0, 0, 0, 0, 0, 6, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -93, -120, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 116, 104, 114, 101, 115, 104, 0, 0, 0, 0, 44, 100, 0, 0, -64, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 100, 101, 108, 97, 121, 47, 109, 115, 0, 0, 0, 44, 100, 0, 0, 64, -99, -109, 14, 28, 56, 112, -32, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 97, 116, 105, 111, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 100, 117, 116, 121, 95, 99, 121, 99, 108, 101, 0, 0, 44, 100, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 111, 102, 102, 115, 101, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 111, 114, 100, 101, 114, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 105, 110, 112, 117, 116, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 100, 101, 108, 97, 121, 47, 102, 101, 101, 100, 98, 97, 99, 107, 0, 44, 100, 0, 0, 64, 82, -27, -53, -105, 46, 92, -70, 0, 0, 0, 28, 47, 109, 97, 116, 114, 105, 120, 47, 101, 110, 97, 98, 108, 101, 103, 97, 105, 110, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 56, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 116, 104, 114, 101, 115, 104, 111, 108, 100, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 119, 97, 118, 101, 102, 111, 114, 109, 0, 0, 0, 0, 44, 115, 0, 0, 83, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 115, 104, 101, 108, 102, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 109, 97, 116, 114, 105, 120, 47, 114, 97, 109, 112, 116, 105, 109, 101, 0, 0, 0, 0, 44, 100, 0, 0, 64, 127, 64, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 112, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -45, -120, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 118, 111, 108, 117, 109, 101, 0, 0, 44, 100, 0, 0, 63, -49, -65, 126, -3, -5, -9, -4, 0, 0, 0, 28, 47, 109, 97, 116, 114, 105, 120, 47, 101, 120, 99, 108, 117, 115, 105, 118, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 102, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 105, 110, 112, 117, 116, 0, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 111, 115, 99, 105, 108, 108, 97, 116, 111, 114, 47, 102, 114, 101, 113, 117, 101, 110, 99, 121, 0, 0, 0, 44, 100, 0, 0, 64, 47, 38, 27, -42, -20, 85, -93, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, -119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 111, 117, 116, 112, 117, 116, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 111, 114, 100, 101, 114, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 109, 104, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 36, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 116, 111, 110, 101, 0, 0, 0, 0, 44, 100, 0, 0, 63, -32, 96, -63, -125, 6, 12, 20, 0, 0, 0, 104, 47, 109, 97, 116, 114, 105, 120, 47, 99, 111, 110, 110, 101, 99, 116, 105, 111, 110, 115, 0, 44, 46, 0, 0, 0, 0, 0, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 110, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 111, 117, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 102, 47, 103, 97, 105, 110, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 110, 111, 105, 115, 101, 103, 97, 116, 101, 47, 98, 121, 112, 97, 115, 115, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 99, 111, 109, 112, 114, 101, 115, 115, 111, 114, 47, 114, 101, 108, 101, 97, 115, 101, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 112, 105, 116, 99, 104, 95, 115, 104, 105, 102, 116, 47, 105, 110, 116, 101, 114, 118, 97, 108, 0, 0, 0, 44, 100, 0, 0, 64, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 104, 112, 47, 102, 114, 101, 113, 0, 0, 44, 100, 0, 0, 64, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 109, 121, 77, 105, 99, 47, 99, 104, 97, 110, 110, 101, 108, 115, 116, 114, 105, 112, 47, 101, 113, 47, 108, 109, 47, 113, 0, 44, 100, 0, 0, 63, -26, -97, -66, 118, -56, -76, 57, 0, 0, 0, 36, 47, 100, 105, 115, 116, 111, 114, 116, 105, 111, 110, 95, 98, 109, 112, 47, 115, 117, 115, 116, 97, 105, 110, 0, 44, 100, 0, 0, 64, 21, 74, -107, 42, 84, -87, 76, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 105, 110, 115, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5 ],
+									"saved_bundle_length" : 2360,
+									"text" : "/presetID : \"Init\",\n/additionalbundles : {\n  /full_patch : {\n    /myMic/channelstrip/eq/lf/freq : 30.,\n    /myMic/channelstrip/noisegate/output : 0.,\n    /delay/slew : 100.,\n    /myMic/channelstrip/eq/hf/shelf : 1,\n    /myMic/channelstrip/compressor/attack : 0.,\n    /pitch_shift/wet_dry : 0.503937,\n    /myMic/channelstrip/preamp/db : 0.,\n    /myMic/channelstrip/eq/mh/gain : 1.,\n    /matrix/numouts : 6,\n    /myMic/channelstrip/eq/hf/freq : 2500.,\n    /myMic/channelstrip/noisegate/thresh : -80.,\n    /delay/ms : 1892.76,\n    /myMic/channelstrip/eq/lf/q : 0.707,\n    /myMic/channelstrip/compressor/ratio : 1,\n    /oscillator/duty_cycle : 0.5,\n    /myMic/channelstrip/eq/lm/gain : 1.,\n    /matrix/offset : 0,\n    /myMic/channelstrip/eq/lp/order : 1,\n    /myMic/channelstrip/noisegate/input : 0.,\n    /delay/feedback : 75.5906,\n    /matrix/enablegain : 1,\n    /myMic/channelstrip/eq/hf/q : 0.707,\n    /myMic/channelstrip/compressor/threshold : 0.,\n    /oscillator/waveform : \"Sine\",\n    /myMic/channelstrip/eq/lf/shelf : 0,\n    /matrix/ramptime : 500.,\n    /myMic/channelstrip/compressor/bypass : 0,\n    /myMic/channelstrip/eq/lp/freq : 20000.,\n    /myMic/channelstrip/eq/bypass : 0,\n    /distortion_bmp/volume : 0.248031,\n    /matrix/exclusive : 0,\n    /myMic/channelstrip/eq/lf/gain : 1.,\n    /myMic/channelstrip/compressor/input : 0.,\n    /oscillator/frequency : 15.5744,\n    /myMic/channelstrip/eq/mh/freq : 800.,\n    /myMic/channelstrip/compressor/output : 0.,\n    /myMic/channelstrip/eq/hp/order : 1,\n    /myMic/channelstrip/eq/mh/q : 0.707,\n    /distortion_bmp/tone : 0.511811,\n    /matrix/connections : {\n      /in : 0,\n      /gain : 0.,\n      /out : 0\n    },\n    /myMic/channelstrip/eq/hf/gain : 1.,\n    /myMic/channelstrip/noisegate/bypass : 0,\n    /myMic/channelstrip/eq/lm/freq : 120.,\n    /myMic/channelstrip/compressor/release : 0.,\n    /pitch_shift/interval : 5.,\n    /myMic/channelstrip/eq/hp/freq : 20.,\n    /myMic/channelstrip/eq/lm/q : 0.707,\n    /distortion_bmp/sustain : 5.32283,\n    /matrix/numins : 5\n  }\n}"
 								}
 
 							}
@@ -800,16 +877,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-7",
-					"linecount" : 57,
+					"linecount" : 61,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2005.0, 437.0, 282.0, 750.0 ],
+					"patching_rect" : [ 2005.0, 437.0, 282.0, 802.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 57,
-					"presentation_rect" : [ 2135.0, 567.0, 282.0, 750.0 ],
-					"text" : "/myMic/channelstrip/eq/lf/freq : 30.,\n/myMic/channelstrip/noisegate/output : 0.,\n/myMic/channelstrip/eq/hf/shelf : 1,\n/myMic/channelstrip/compressor/attack : 0.,\n/myMic/channelstrip/preamp/db : 0.,\n/myMic/channelstrip/eq/mh/gain : 1.,\n/matrix/numouts : 6,\n/myMic/channelstrip/eq/hf/freq : 2500.,\n/myMic/channelstrip/noisegate/thresh : -80.,\n/myMic/channelstrip/eq/lf/q : 0.707,\n/myMic/channelstrip/compressor/ratio : 1,\n/oscillator/duty_cycle : 0.5,\n/myMic/channelstrip/eq/lm/gain : 1.,\n/matrix/offset : 0,\n/myMic/channelstrip/eq/lp/order : 1,\n/myMic/channelstrip/noisegate/input : 0.,\n/matrix/enablegain : 1,\n/myMic/channelstrip/eq/hf/q : 0.707,\n/myMic/channelstrip/compressor/threshold : 0.,\n/oscillator/waveform : \"Sine\",\n/myMic/channelstrip/eq/lf/shelf : 0,\n/matrix/ramptime : 40.,\n/myMic/channelstrip/compressor/bypass : 0,\n/myMic/channelstrip/eq/lp/freq : 20000.,\n/myMic/channelstrip/eq/bypass : 0,\n/matrix/exclusive : 0,\n/myMic/channelstrip/eq/lf/gain : 1.,\n/myMic/channelstrip/compressor/input : 0.,\n/oscillator/frequency : 15.5744,\n/myMic/channelstrip/eq/mh/freq : 800.,\n/myMic/channelstrip/compressor/output : 0.,\n/myMic/channelstrip/eq/hp/order : 1,\n/myMic/channelstrip/eq/mh/q : 0.707,\n/matrix/connections : [{\n  /in : 0,\n  /gain : 1.,\n  /out : 0\n}, {\n  /in : 0,\n  /gain : 1.,\n  /out : 1\n}],\n/myMic/channelstrip/eq/hf/gain : 1.,\n/myMic/channelstrip/noisegate/bypass : 0,\n/myMic/channelstrip/eq/lm/freq : 120.,\n/myMic/channelstrip/compressor/release : 0.,\n/myMic/channelstrip/eq/hp/freq : 20.,\n/myMic/channelstrip/eq/lm/q : 0.707,\n/matrix/numins : 5"
+					"presentation_linecount" : 61,
+					"presentation_rect" : [ 2135.0, 567.0, 282.0, 802.0 ],
+					"text" : "/myMic/channelstrip/eq/lf/freq : 30.,\n/myMic/channelstrip/noisegate/output : 0.,\n/delay/slew : 100.,\n/myMic/channelstrip/eq/hf/shelf : 1,\n/myMic/channelstrip/compressor/attack : 0.,\n/pitch_shift/wet_dry : 0.503937,\n/myMic/channelstrip/preamp/db : 0.,\n/myMic/channelstrip/eq/mh/gain : 1.,\n/matrix/numouts : 6,\n/myMic/channelstrip/eq/hf/freq : 2500.,\n/myMic/channelstrip/noisegate/thresh : -80.,\n/delay/ms : 1892.76,\n/myMic/channelstrip/eq/lf/q : 0.707,\n/myMic/channelstrip/compressor/ratio : 1,\n/oscillator/duty_cycle : 0.5,\n/myMic/channelstrip/eq/lm/gain : 1.,\n/matrix/offset : 0,\n/myMic/channelstrip/eq/lp/order : 1,\n/myMic/channelstrip/noisegate/input : 0.,\n/delay/feedback : 75.5906,\n/matrix/enablegain : 1,\n/myMic/channelstrip/eq/hf/q : 0.707,\n/myMic/channelstrip/compressor/threshold : 0.,\n/oscillator/waveform : \"Sine\",\n/myMic/channelstrip/eq/lf/shelf : 0,\n/matrix/ramptime : 500.,\n/myMic/channelstrip/compressor/bypass : 0,\n/myMic/channelstrip/eq/lp/freq : 20000.,\n/myMic/channelstrip/eq/bypass : 0,\n/distortion_bmp/volume : 0.248031,\n/matrix/exclusive : 0,\n/myMic/channelstrip/eq/lf/gain : 1.,\n/myMic/channelstrip/compressor/input : 0.,\n/oscillator/frequency : 15.5744,\n/myMic/channelstrip/eq/mh/freq : 800.,\n/myMic/channelstrip/compressor/output : 0.,\n/myMic/channelstrip/eq/hp/order : 1,\n/myMic/channelstrip/eq/mh/q : 0.707,\n/distortion_bmp/tone : 0.511811,\n/matrix/connections : {\n  /in : 0,\n  /gain : 0.,\n  /out : 0\n},\n/myMic/channelstrip/eq/hf/gain : 1.,\n/myMic/channelstrip/noisegate/bypass : 0,\n/myMic/channelstrip/eq/lm/freq : 120.,\n/myMic/channelstrip/compressor/release : 0.,\n/pitch_shift/interval : 5.,\n/myMic/channelstrip/eq/hp/freq : 20.,\n/myMic/channelstrip/eq/lm/q : 0.707,\n/distortion_bmp/sustain : 5.32283,\n/matrix/numins : 5"
 				}
 
 			}
@@ -881,16 +958,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-53",
-					"linecount" : 59,
+					"linecount" : 61,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1682.0, 437.0, 282.0, 776.0 ],
+					"patching_rect" : [ 1682.0, 437.0, 282.0, 802.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 59,
-					"presentation_rect" : [ 1812.0, 567.0, 282.0, 776.0 ],
-					"text" : "/oscillator/waveform : \"Sine\",\n/oscillator/frequency : 15.5744,\n/oscillator/duty_cycle : 0.5,\n/matrix/ramptime : 40.,\n/matrix/offset : 0,\n/matrix/numouts : 6,\n/matrix/numins : 5,\n/matrix/connections : [{\n  /in : 0,\n  /gain : 1.,\n  /out : 0\n}, {\n  /in : 0,\n  /gain : 1.,\n  /out : 1\n}],\n/matrix/exclusive : 0,\n/matrix/enablegain : 1,\n/myMic/channelstrip/compressor/input : 0.,\n/myMic/channelstrip/compressor/threshold : 0.,\n/myMic/channelstrip/compressor/ratio : 1,\n/myMic/channelstrip/compressor/attack : 0.,\n/myMic/channelstrip/compressor/release : 0.,\n/myMic/channelstrip/compressor/output : 0.,\n/myMic/channelstrip/compressor/bypass : 0,\n/myMic/channelstrip/eq/hp/freq : 20.,\n/myMic/channelstrip/eq/hp/order : 1,\n/myMic/channelstrip/eq/lf/freq : 30.,\n/myMic/channelstrip/eq/lf/gain : 1.,\n/myMic/channelstrip/eq/lf/q : 0.707,\n/myMic/channelstrip/eq/lf/shelf : 0,\n/myMic/channelstrip/eq/lm/freq : 120.,\n/myMic/channelstrip/eq/lm/gain : 1.,\n/myMic/channelstrip/eq/lm/q : 0.707,\n/myMic/channelstrip/eq/mh/freq : 800.,\n/myMic/channelstrip/eq/mh/gain : 1.,\n/myMic/channelstrip/eq/mh/q : 0.707,\n/myMic/channelstrip/eq/hf/freq : 2500.,\n/myMic/channelstrip/eq/hf/gain : 1.,\n/myMic/channelstrip/eq/hf/q : 0.707,\n/myMic/channelstrip/eq/hf/shelf : 1,\n/myMic/channelstrip/eq/lp/freq : 20000.,\n/myMic/channelstrip/eq/lp/order : 1,\n/myMic/channelstrip/eq/bypass : 0,\n/myMic/channelstrip/preamp/db : 0.,\n/myMic/channelstrip/noisegate/input : 0.,\n/myMic/channelstrip/noisegate/output : 0.,\n/myMic/channelstrip/noisegate/bypass : 0,\n/myMic/channelstrip/noisegate/thresh : -80.,\n/pitch_shift/wet_dry : 0.503937,\n/pitch_shift/interval : 5."
+					"presentation_linecount" : 61,
+					"presentation_rect" : [ 1812.0, 567.0, 282.0, 802.0 ],
+					"text" : "/distortion_bmp/sustain : 5.32283,\n/distortion_bmp/tone : 0.511811,\n/distortion_bmp/volume : 0.248031,\n/oscillator/waveform : \"Sine\",\n/oscillator/frequency : 15.5744,\n/oscillator/duty_cycle : 0.5,\n/delay/ms : 1892.76,\n/delay/feedback : 75.5906,\n/delay/slew : 100.,\n/pitch_shift/wet_dry : 0.503937,\n/pitch_shift/interval : 5.,\n/matrix/ramptime : 500.,\n/matrix/offset : 0,\n/matrix/numouts : 6,\n/matrix/numins : 5,\n/matrix/exclusive : 0,\n/matrix/enablegain : 1,\n/matrix/connections : {\n  /in : 0,\n  /gain : 1.,\n  /out : 1\n},\n/myMic/channelstrip/compressor/input : 0.,\n/myMic/channelstrip/compressor/threshold : 0.,\n/myMic/channelstrip/compressor/ratio : 1,\n/myMic/channelstrip/compressor/attack : 0.,\n/myMic/channelstrip/compressor/release : 0.,\n/myMic/channelstrip/compressor/output : 0.,\n/myMic/channelstrip/compressor/bypass : 0,\n/myMic/channelstrip/eq/hp/freq : 20.,\n/myMic/channelstrip/eq/hp/order : 1,\n/myMic/channelstrip/eq/lf/freq : 30.,\n/myMic/channelstrip/eq/lf/gain : 1.,\n/myMic/channelstrip/eq/lf/q : 0.707,\n/myMic/channelstrip/eq/lf/shelf : 0,\n/myMic/channelstrip/eq/lm/freq : 120.,\n/myMic/channelstrip/eq/lm/gain : 1.,\n/myMic/channelstrip/eq/lm/q : 0.707,\n/myMic/channelstrip/eq/mh/freq : 800.,\n/myMic/channelstrip/eq/mh/gain : 1.,\n/myMic/channelstrip/eq/mh/q : 0.707,\n/myMic/channelstrip/eq/hf/freq : 2500.,\n/myMic/channelstrip/eq/hf/gain : 1.,\n/myMic/channelstrip/eq/hf/q : 0.707,\n/myMic/channelstrip/eq/hf/shelf : 1,\n/myMic/channelstrip/eq/lp/freq : 20000.,\n/myMic/channelstrip/eq/lp/order : 1,\n/myMic/channelstrip/eq/bypass : 0,\n/myMic/channelstrip/preamp/db : 0.,\n/myMic/channelstrip/noisegate/input : 0.,\n/myMic/channelstrip/noisegate/output : 0.,\n/myMic/channelstrip/noisegate/bypass : 0,\n/myMic/channelstrip/noisegate/thresh : -80."
 				}
 
 			}
@@ -1073,7 +1150,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1196,6 +1273,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 4 ],
+					"order" : 1,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 0,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1253,7 +1339,44 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"order" : 0,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 1 ],
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
