@@ -1,0 +1,462 @@
+{
+	"1" : 	{
+		"presetID" : "Init",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 15.574431148862294,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : 				{
+					"in" : 0,
+					"gain" : 0.0,
+					"out" : 0
+				}
+,
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"2" : 	{
+		"presetID" : "Mic2Speakers",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 15.574431148862294,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 0
+					}
+, 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 1
+					}
+ ],
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"3" : 	{
+		"presetID" : "Delay",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 15.574431148862294,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 0.996,
+						"out" : 2
+					}
+, 					{
+						"in" : 1,
+						"gain" : 1.0,
+						"out" : 0
+					}
+, 					{
+						"in" : 1,
+						"gain" : 1.0,
+						"out" : 1
+					}
+ ],
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"4" : 	{
+		"presetID" : "PitchShift_5th",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"pitch_shift/wet_dry" : 0.503937007874016,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 15.574431148862294,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 3
+					}
+, 					{
+						"in" : 2,
+						"gain" : 0.996,
+						"out" : 0
+					}
+, 					{
+						"in" : 2,
+						"gain" : 1.0,
+						"out" : 1
+					}
+ ],
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"pitch_shift/interval" : 5.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"5" : 	{
+		"presetID" : "Ringmod",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"pitch_shift/wet_dry" : 0.503937007874016,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 400.0,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 4
+					}
+, 					{
+						"in" : 3,
+						"gain" : 1.0,
+						"out" : 0
+					}
+, 					{
+						"in" : 3,
+						"gain" : 1.0,
+						"out" : 1
+					}
+ ],
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"pitch_shift/interval" : 5.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"6" : 	{
+		"presetID" : "Distortion",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"pitch_shift/wet_dry" : 0.503937007874016,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"matrix/numouts" : 6,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"matrix/offset" : 0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"matrix/enablegain" : 1,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"oscillator/waveform" : "Sine",
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"matrix/ramptime" : 40.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"matrix/exclusive" : 0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"oscillator/frequency" : 400.0,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 5
+					}
+, 					{
+						"in" : 4,
+						"gain" : 1.0,
+						"out" : 0
+					}
+, 					{
+						"in" : 4,
+						"gain" : 1.0,
+						"out" : 1
+					}
+ ],
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"pitch_shift/interval" : 5.0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"matrix/numins" : 5
+			}
+
+		}
+
+	}
+,
+	"7" : 	{
+		"presetID" : "Pitchshift+Delay",
+		"additionalbundles" : 		{
+			"full_patch" : 			{
+				"matrix/ramptime" : 40.0,
+				"matrix/offset" : 0,
+				"matrix/numouts" : 6,
+				"matrix/numins" : 5,
+				"matrix/connections" : [ 					{
+						"in" : 0,
+						"gain" : 1.0,
+						"out" : 3
+					}
+, 					{
+						"in" : 1,
+						"gain" : 0.992,
+						"out" : 1
+					}
+, 					{
+						"in" : 2,
+						"gain" : 1.0,
+						"out" : 0
+					}
+, 					{
+						"in" : 2,
+						"gain" : 1.0,
+						"out" : 2
+					}
+ ],
+				"matrix/exclusive" : 0,
+				"matrix/enablegain" : 1,
+				"oscillator/waveform" : "Sine",
+				"oscillator/frequency" : 15.574431148862294,
+				"oscillator/duty_cycle" : 0.5,
+				"myMic/channelstrip/compressor/input" : 0.0,
+				"myMic/channelstrip/compressor/threshold" : 0.0,
+				"myMic/channelstrip/compressor/ratio" : 1,
+				"myMic/channelstrip/compressor/attack" : 0.0,
+				"myMic/channelstrip/compressor/release" : 0.0,
+				"myMic/channelstrip/compressor/output" : 0.0,
+				"myMic/channelstrip/compressor/bypass" : 0,
+				"myMic/channelstrip/eq/hp/freq" : 20.0,
+				"myMic/channelstrip/eq/hp/order" : 1,
+				"myMic/channelstrip/eq/lf/freq" : 30.0,
+				"myMic/channelstrip/eq/lf/gain" : 1.0,
+				"myMic/channelstrip/eq/lf/q" : 0.707,
+				"myMic/channelstrip/eq/lf/shelf" : 0,
+				"myMic/channelstrip/eq/lm/freq" : 120.0,
+				"myMic/channelstrip/eq/lm/gain" : 1.0,
+				"myMic/channelstrip/eq/lm/q" : 0.707,
+				"myMic/channelstrip/eq/mh/freq" : 800.0,
+				"myMic/channelstrip/eq/mh/gain" : 1.0,
+				"myMic/channelstrip/eq/mh/q" : 0.707,
+				"myMic/channelstrip/eq/hf/freq" : 2500.0,
+				"myMic/channelstrip/eq/hf/gain" : 1.0,
+				"myMic/channelstrip/eq/hf/q" : 0.707,
+				"myMic/channelstrip/eq/hf/shelf" : 1,
+				"myMic/channelstrip/eq/lp/freq" : 20000.0,
+				"myMic/channelstrip/eq/lp/order" : 1,
+				"myMic/channelstrip/eq/bypass" : 0,
+				"myMic/channelstrip/preamp/db" : 0.0,
+				"myMic/channelstrip/noisegate/input" : 0.0,
+				"myMic/channelstrip/noisegate/output" : 0.0,
+				"myMic/channelstrip/noisegate/bypass" : 0,
+				"myMic/channelstrip/noisegate/thresh" : -80.0,
+				"pitch_shift/wet_dry" : 0.503937007874016,
+				"pitch_shift/interval" : 5.0
+			}
+
+		}
+
+	}
+
+}
