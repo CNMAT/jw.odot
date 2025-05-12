@@ -10,9 +10,34 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 770.0, -835.0, 1000.0, 780.0 ],
+		"rect" : [ 134.0, 172.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 233.0, 273.5, 199.0, 37.0 ],
+					"text" : "Trying this to avoid infinite recursion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"patching_rect" : [ 167.0, 281.0, 58.0, 22.0 ],
+					"text" : "o.change"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -32,8 +57,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 39.0, 30.0, 30.0 ]
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 167.0, 1.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -103,7 +128,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 291.0, 138.0, 22.0 ],
+					"patching_rect" : [ 167.0, 334.0, 138.0, 22.0 ],
 					"text" : "udpsend 127.0.0.1 1750"
 				}
 
@@ -137,6 +162,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -151,7 +183,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -200,7 +232,7 @@
 
 			}
  ],
-		"originid" : "pat-7962"
+		"originid" : "pat-45"
 	}
 
 }
