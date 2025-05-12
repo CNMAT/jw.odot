@@ -15,6 +15,156 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2031.0, 352.0, 33.0, 22.0 ],
+					"text" : "s /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 801.0, 499.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1073.0, 651.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 447.0, 651.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 179.0, 651.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 98.5, 18.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 114.0, 168.0, 31.0, 22.0 ],
+					"text" : "r /ctl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1682.0, 276.0, 51.0, 22.0 ],
+					"text" : "r /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.0, 459.0, 53.0, 22.0 ],
+					"text" : "s /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1257.000006556510925, 801.5, 53.0, 22.0 ],
+					"text" : "s /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 956.0, 673.0, 53.0, 22.0 ],
+					"text" : "s /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 554.0, 816.0, 53.0, 22.0 ],
+					"text" : "s /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 323.0, 816.0, 53.0, 22.0 ],
+					"text" : "s /report"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -710,7 +860,7 @@
 
 							}
  ],
-						"originid" : "pat-1788"
+						"originid" : "pat-752"
 					}
 ,
 					"patching_rect" : [ 1750.0, 249.0, 365.0, 22.0 ],
@@ -783,16 +933,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-53",
-					"linecount" : 50,
+					"linecount" : 17,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1682.0, 437.0, 282.0, 661.0 ],
+					"patching_rect" : [ 1682.0, 437.0, 282.0, 238.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 50,
-					"presentation_rect" : [ 1812.0, 567.0, 282.0, 661.0 ],
-					"text" : "/myMic/channelstrip/preamp/db : 0.,\n/myMic/channelstrip/eq/hp/freq : 20.,\n/myMic/channelstrip/eq/hp/order : 1,\n/myMic/channelstrip/eq/lp/freq : 20000.,\n/myMic/channelstrip/eq/lp/order : 1,\n/myMic/channelstrip/eq/hf/freq : 2500.,\n/myMic/channelstrip/eq/lf/freq : 30.,\n/myMic/channelstrip/eq/hf/gain : 1.,\n/myMic/channelstrip/eq/lf/gain : 1.,\n/myMic/channelstrip/eq/hf/q : 0.707,\n/myMic/channelstrip/eq/lf/q : 0.707,\n/myMic/channelstrip/eq/hf/shelf : 1,\n/myMic/channelstrip/eq/lm/freq : 120.,\n/myMic/channelstrip/eq/mh/freq : 800.,\n/myMic/channelstrip/eq/lf/shelf : 0,\n/myMic/channelstrip/eq/lm/gain : 1.,\n/myMic/channelstrip/eq/mh/gain : 1.,\n/myMic/channelstrip/eq/lm/q : 0.707,\n/myMic/channelstrip/eq/mh/q : 0.707,\n/myMic/channelstrip/eq/bypass : 0,\n/myMic/channelstrip/noisegate/input : 0.,\n/myMic/channelstrip/noisegate/thresh : -80.,\n/myMic/channelstrip/noisegate/output : 0.,\n/myMic/channelstrip/noisegate/bypass : 0,\n/myMic/channelstrip/compressor/input : 0.,\n/myMic/channelstrip/compressor/threshold : 0.,\n/myMic/channelstrip/compressor/ratio : 1,\n/myMic/channelstrip/compressor/attack : 0.,\n/myMic/channelstrip/compressor/release : 0.,\n/myMic/channelstrip/compressor/output : 0.,\n/myMic/channelstrip/compressor/bypass : 0,\n/distortion_bmp/bypass : 0,\n/distortion_bmp/sustain : 1.,\n/distortion_bmp/tone : 0.5,\n/distortion_bmp/volume : 0.5,\n/oscillator/waveform : \"Off\",\n/oscillator/frequency : 10.,\n/oscillator/duty_cycle : 0.5,\n/delay/ms : 3.,\n/delay/slew : 100.,\n/pitch_shift/wet_dry : 0.,\n/pitch_shift/interval : 0."
+					"presentation_linecount" : 17,
+					"presentation_rect" : [ 1812.0, 567.0, 282.0, 238.0 ],
+					"text" : "/matrix/numins : 5,\n/matrix/numouts : 6,\n/matrix/exclusive : 0,\n/matrix/offset : 0,\n/matrix/enablegain : 1,\n/matrix/ramptime : 40.,\n/distortion_bmp/bypass : 0,\n/distortion_bmp/sustain : 1.,\n/distortion_bmp/tone : 0.5,\n/distortion_bmp/volume : 0.5,\n/oscillator/waveform : \"Off\",\n/oscillator/frequency : 10.,\n/oscillator/duty_cycle : 0.5,\n/delay/ms : 3.,\n/delay/slew : 100.,\n/pitch_shift/wet_dry : 0.,\n/pitch_shift/interval : 0."
 				}
 
 			}
@@ -801,54 +951,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 5,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 4,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 3,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 2,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"order" : 1,
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -871,6 +973,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-18", 6 ]
 				}
 
 			}
@@ -919,7 +1028,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
-					"source" : [ "obj-18", 6 ]
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -932,8 +1041,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"source" : [ "obj-2", 1 ]
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -946,8 +1062,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -960,15 +1090,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-28", 0 ]
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -995,7 +1139,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-33", 1 ]
 				}
 
@@ -1112,14 +1256,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-29", 0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-63", 1 ]
 				}
 
@@ -1153,7 +1306,7 @@
 
 			}
  ],
-		"originid" : "pat-1420",
+		"originid" : "pat-384",
 		"parameters" : 		{
 			"obj-16" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-22::obj-10" : [ "/interval", "/interval", 0 ],
@@ -1360,92 +1513,92 @@
 			}
 , 			{
 				"name" : "o.preset.additionalcapture.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.dictnullcheck.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.explodebymodule.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.gather.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.getpresetIDs.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.manager-bp.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.opColorReceive.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.opColorSend.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.receive.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/o.ui_lib/capture_arbitrary_bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.removebrokenaddrs.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_allpresets.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_within_allpresets.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.preset.sort_within_preset.maxpat",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/patchers/system/sort-bundles",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/patchers/system/sort-bundles",
+				"patcherrelativepath" : "../../CNMAT-o.preset/patchers/system/sort-bundles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1481,8 +1634,8 @@
 			}
 , 			{
 				"name" : "redoButton.png",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/media",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/media",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/media",
+				"patcherrelativepath" : "../../CNMAT-o.preset/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1498,8 +1651,8 @@
 			}
 , 			{
 				"name" : "undoButton.png",
-				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/CNMAT-o.preset/media",
-				"patcherrelativepath" : "../../CNMAT-o.preset/CNMAT-o.preset/media",
+				"bootpath" : "~/Documents/GitHub/wagne342/CNMAT-o.preset/media",
+				"patcherrelativepath" : "../../CNMAT-o.preset/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
