@@ -15,12 +15,48 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 810.833333333333485, 418.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 852.5, 448.0, 48.0, 22.0 ],
+					"text" : "o.union"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 728.5, 384.0, 143.0, 22.0 ],
+					"text" : "o.select /matrix/ramptime"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 728.5, 389.0, 37.0, 22.0 ],
+					"patching_rect" : [ 852.5, 474.0, 37.0, 22.0 ],
 					"text" : "o.dict",
 					"varname" : "mtx_dict"
 				}
@@ -33,7 +69,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 663.0, 365.0, 150.0, 22.0 ],
+					"patching_rect" : [ 663.0, 360.0, 150.0, 22.0 ],
 					"text" : "routepass clear FullPacket",
 					"varname" : "rps"
 				}
@@ -46,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 769.333333333333371, 547.0, 48.0, 22.0 ],
+					"patching_rect" : [ 770.0, 628.0, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -60,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 769.333333333333371, 573.0, 153.0, 87.0 ],
+					"patching_rect" : [ 770.0, 654.0, 153.0, 87.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 104, 47, 109, 97, 116, 114, 105, 120, 47, 99, 111, 110, 110, 101, 99, 116, 105, 111, 110, 115, 0, 44, 46, 0, 0, 0, 0, 0, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 110, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 111, 117, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 124,
 					"text" : "/matrix/connections : {\n  /in : 0,\n  /gain : 0.,\n  /out : 0\n}"
@@ -74,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dumpconnections", "clear" ],
-					"patching_rect" : [ 662.333333333333371, 451.0, 139.0, 22.0 ],
+					"patching_rect" : [ 663.0, 532.0, 139.0, 22.0 ],
 					"text" : "t dumpconnections clear"
 				}
 
@@ -86,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 662.333333333333371, 427.0, 53.0, 22.0 ],
+					"patching_rect" : [ 663.0, 508.0, 53.0, 22.0 ],
 					"text" : "sel clear"
 				}
 
@@ -100,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 588.333333333333371, 551.0, 173.0, 62.0 ],
+					"patching_rect" : [ 589.0, 632.0, 173.0, 62.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 109, 97, 116, 114, 105, 120, 47, 114, 97, 109, 112, 116, 105, 109, 101, 0, 0, 0, 0, 44, 100, 0, 0, 64, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 111, 102, 102, 115, 101, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 111, 117, 116, 115, 0, 44, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 24, 47, 109, 97, 116, 114, 105, 120, 47, 110, 117, 109, 105, 110, 115, 0, 0, 44, 105, 0, 0, 0, 0, 0, 4 ],
 					"saved_bundle_length" : 136,
 					"text" : "/matrix/ramptime : 40.,\n/matrix/offset : 0,\n/matrix/numouts : 4,\n/matrix/numins : 4"
@@ -114,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.0, 319.0, 83.0, 22.0 ],
+					"patching_rect" : [ 742.333333333333371, 333.0, 83.0, 22.0 ],
 					"text" : "prepend ramp",
 					"varname" : "set_ramp"
 				}
@@ -127,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 588.333333333333371, 498.0, 48.0, 22.0 ],
+					"patching_rect" : [ 589.0, 579.0, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -139,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 588.333333333333371, 471.0, 58.0, 22.0 ],
+					"patching_rect" : [ 589.0, 552.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -151,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dumpconnections", "" ],
-					"patching_rect" : [ 742.333333333333371, 511.0, 115.0, 22.0 ],
+					"patching_rect" : [ 743.0, 592.0, 115.0, 22.0 ],
 					"text" : "t dumpconnections l",
 					"varname" : "trig_dump"
 				}
@@ -164,7 +200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 960.0, 281.0, 61.0, 22.0 ],
+					"patching_rect" : [ 960.0, 276.0, 61.0, 22.0 ],
 					"text" : "o.explode",
 					"varname" : "expld"
 				}
@@ -177,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 1013.0, 365.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1013.0, 360.0, 35.0, 22.0 ],
 					"text" : "o.var"
 				}
 
@@ -189,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 960.0, 365.0, 48.0, 22.0 ],
+					"patching_rect" : [ 960.0, 360.0, 48.0, 22.0 ],
 					"text" : "o.union",
 					"varname" : "mtx_state"
 				}
@@ -202,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 960.0, 309.0, 102.0, 22.0 ],
+					"patching_rect" : [ 960.0, 304.0, 102.0, 22.0 ],
 					"text" : "o.prepend /matrix"
 				}
 
@@ -772,7 +808,7 @@
 
 							}
  ],
-						"originid" : "pat-1535"
+						"originid" : "pat-1429"
 					}
 ,
 					"patching_rect" : [ 285.0, 687.0, 86.0, 22.0 ],
@@ -791,7 +827,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 662.333333333333371, 289.0, 178.0, 22.0 ],
+					"patching_rect" : [ 662.333333333333371, 303.0, 178.0, 22.0 ],
 					"text" : "o.route /matrix /matrix/ramptime",
 					"varname" : "odot_matrix_msg"
 				}
@@ -959,7 +995,7 @@
 
 							}
  ],
-						"originid" : "pat-1537"
+						"originid" : "pat-1431"
 					}
 ,
 					"patching_rect" : [ 177.0, 687.0, 103.0, 22.0 ],
@@ -1397,7 +1433,7 @@
 
 							}
  ],
-						"originid" : "pat-1539"
+						"originid" : "pat-1433"
 					}
 ,
 					"patching_rect" : [ 143.0, 663.0, 137.0, 22.0 ],
@@ -2074,7 +2110,7 @@
 
 											}
  ],
-										"originid" : "pat-1543"
+										"originid" : "pat-1437"
 									}
 ,
 									"patching_rect" : [ 622.0, 297.0, 125.0, 22.0 ],
@@ -2271,7 +2307,7 @@
 
 							}
  ],
-						"originid" : "pat-1541"
+						"originid" : "pat-1435"
 					}
 ,
 					"patching_rect" : [ 130.0, 637.0, 125.0, 22.0 ],
@@ -2443,7 +2479,7 @@
 
 							}
  ],
-						"originid" : "pat-1545"
+						"originid" : "pat-1439"
 					}
 ,
 					"patching_rect" : [ 108.0, 609.0, 126.0, 22.0 ],
@@ -9520,6 +9556,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-26", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -9562,6 +9612,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-300", 0 ]
 				}
@@ -9590,7 +9647,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-34", 1 ]
 				}
 
@@ -9632,6 +9689,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -9659,7 +9730,7 @@
 
 			}
  ],
-		"originid" : "pat-1533",
+		"originid" : "pat-1427",
 		"dependency_cache" : [ 			{
 				"name" : "o.compose.mxo",
 				"type" : "iLaX"
@@ -9678,6 +9749,10 @@
 			}
 , 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
 				"type" : "iLaX"
 			}
 , 			{

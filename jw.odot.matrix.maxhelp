@@ -68,13 +68,11 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-7",
-					"linecount" : 11,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 717.0, 753.0, 251.0, 161.0 ],
-					"text" : "/matrix/connections : {\n  /in : 0,\n  /gain : 0.,\n  /out : 0\n},\n/matrix/ramptime : 200.,\n/matrix/offset : 0,\n/matrix/numouts : 16,\n/matrix/numins : 12,\n/matrix/exclusive : 0,\n/matrix/enablegain : 1"
+					"patching_rect" : [ 717.0, 753.0, 251.0, 33.0 ]
 				}
 
 			}
@@ -223,7 +221,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.0, 1.0, 0.53125, 1.0 ],
+					"color" : [ 0.0625, 1.0, 0.8681640625, 1.0 ],
 					"dialmode" : 2,
 					"id" : "obj-140",
 					"maxclass" : "matrixctrl",
@@ -698,7 +696,7 @@
 
 							}
  ],
-						"originid" : "pat-1665"
+						"originid" : "pat-1166"
 					}
 ,
 					"patching_rect" : [ 36.0, 420.0, 173.0, 22.0 ],
@@ -1332,7 +1330,7 @@
 
 							}
  ],
-						"originid" : "pat-1667"
+						"originid" : "pat-1168"
 					}
 ,
 					"patching_rect" : [ 328.0, 367.5, 134.5, 22.0 ],
@@ -1971,7 +1969,7 @@
 
 			}
  ],
-		"originid" : "pat-1635",
+		"originid" : "pat-1136",
 		"dependency_cache" : [ 			{
 				"name" : "jw.odot.matrix.maxpat",
 				"bootpath" : "~/Documents/GitHub/wagne342/jw.odot",
