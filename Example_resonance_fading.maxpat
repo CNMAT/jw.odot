@@ -10,9 +10,46 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 170.0, -950.0, 1467.0, 780.0 ],
+		"rect" : [ 71.0, 283.0, 1585.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"linecount" : 22,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1150.0, 643.0, 150.0, 301.0 ],
+					"text" : "Artifacts arise as the list is reordered when culled. Removing resonances from the list results in resonators~ glissing the remaining resonances. That is, if we have a model  with 4 resonances and remove the second resonance from the list, frequency 3 will gliss to frequency 4 and frequency 2 will gliss to frequency 3. We need a resonance buddy that tracks the partials over time, deletes those that fall below a threshold and then reuses those list members as more resonances are added to the model."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-91",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 271.5, 210.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 271.0, 239.0, 81.0, 22.0 ],
+					"text" : "set_thresh $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "newobj",
@@ -370,8 +407,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "list" ],
-					"patching_rect" : [ 62.0, 687.0, 72.0, 22.0 ],
-					"text" : "resonators~"
+					"patching_rect" : [ 62.0, 687.0, 115.0, 22.0 ],
+					"text" : "resonators~ smooth"
 				}
 
 			}
@@ -439,7 +476,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 403.0, 525.0, 421.0, 223.0 ],
-					"text" : "/rm ??= [], \nif(bound(/new_rm), prog2(/rm = list(/rm, /new_rm), delete(/new_rm))),\n/l = length(/rm),\nif(/l > 0, \n   progn(\n         /i = aseq(1,/l,3),\n         /rm[[/i]] = 0.99*/rm[[/i]],\n         /cull = nonzero(/rm < 0.0001),\n         /cull = sort(list(/cull-1, /cull, /cull+1)),\n         /subset = nfill(/l, 1),\n         /subset[[/cull]]=0, /subset = nonzero(/subset),\n         if(length(/cull) > 2, /rm = /rm[[/subset]])\n   )\n)\n"
+					"text" : "/rm ??= [], \nif(bound(/new_rm), prog2(/rm = list(/rm, /new_rm), delete(/new_rm))),\n/l = length(/rm),\nif(/l > 0, \n   progn(\n         /i = aseq(1,/l,3),\n         /rm[[/i]] = 0.99*/rm[[/i]],\n         /cull = nonzero(/rm < 0.00001),\n         /cull = sort(list(/cull-1, /cull, /cull+1)),\n         /subset = nfill(/l, 1),\n         /subset[[/cull]]=0, /subset = nonzero(/subset),\n         if(length(/cull) > 2, /rm = /rm[[/subset]])\n   )\n)\n"
 				}
 
 			}
@@ -1339,7 +1376,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 119.0, 57.0, 490.0, 93.0 ],
-					"setmode" : 3,
+					"setmode" : 1,
 					"ticks" : 8,
 					"vlabels" : 1
 				}
@@ -1402,7 +1439,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 412.5, 733.63671875, 754.92578125, 733.63671875, 754.92578125, 452.99609375, 428.5, 452.99609375 ],
+					"midpoints" : [ 412.5, 755.59765625, 897.55078125, 755.59765625, 897.55078125, 452.99609375, 428.5, 452.99609375 ],
 					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
@@ -1806,6 +1843,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-91", 0 ]
 				}
 
 			}
