@@ -15,7 +15,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-197",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -27,11 +27,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-196",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 240.8163242340088, 547.9591784477234, 30.0, 30.0 ]
                 }
             },
@@ -65,7 +65,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 402.0, 493.5, 150.0, 37.0 ],
+                    "patching_rect": [ 402.0, 493.5, 152.0, 37.0 ],
                     "text": "Triangle Function From Square wave"
                 }
             },
@@ -95,7 +95,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-147",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -439,7 +439,7 @@
                 "box": {
                     "comment": "noise level",
                     "id": "obj-30",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -598,7 +598,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-132", 0 ],
+                    "destination": [ "obj-56", 0 ],
                     "source": [ "obj-197", 0 ]
                 }
             },
@@ -752,19 +752,6 @@
                     "source": [ "obj-97", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-88": [ "live.dial[2]", "live.dial", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }
